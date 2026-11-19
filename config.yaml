@@ -1,0 +1,56 @@
+# HookCut configuration. Every model is "provider:model"; swap by editing here or with CLI flags
+# (--analyze / --judge / --writer) or env vars (HOOKCUT_ANALYZE_MODEL, ...). Providers: gemini, groq,
+# openai, openrouter, ollama, custom (any OpenAI-compatible URL via HOOKCUT_BASE_URL), anthropic.
+models:
+  analyze: gemini:gemini-3.5-flash-lite   # one call per episode: scores beats for hook / cliffhanger.
+                                          # Free tier covers a 50-episode show in a day; quality preset:
+                                          # --analyze gemini:gemini-3.8-flash (free tier = 20 calls/day)
+  judge: groq:qwen/qwen3.8-27b            # cold-viewer test; a different model family on purpose
+  writer: groq:openai/gpt-oss-120b        # one-line "why it works" for the final list
+  genome: gemini:gemini-3.5-flash-lite    # content genome: one show-level story-graph call
+fallbacks:                                 # tried in order when a model times out or rate-limits
+  analyze: [gemini:gemini-3.8-flash, groq:openai/gpt-oss-120b]
+  judge: [groq:openai/gpt-oss-20b]                                    # keeps gpt-oss-120b free for the eval judge
+  writer: [groq:qwen/qwen3.8-27b]
+  genome: [groq:qwen/qwen3.8-27b]
+model_options:
+  analyze: {max_tokens: 16000, reasoning: low}
+  judge: {max_tokens: 4000}
+  writer: {max_tokens: 6000}
+  genome: {max_tokens: 16000, reasoning: low}
+concurrency:                               # parallel calls per stage (free tiers are small)
+  analyze: 4
+  judge: 2
+
+promo:
+  min_s: 20                 # brief: 20-60 s
+  max_s: 60
+  sweet_spot: [25, 45]      # preferred length inside the allowed range
+  hook_window_s: 3.0        # the hook beat must start within the first 3 s of the clip
+  hook_min: 3               # beat scores 0-5; a candidate opening needs at least this
+  cliff_min: 3
+  per_episode_keep: 4       # best non-overlapping candidates kept per episode before judging
+  judge_top_k: 64           # finalists sent to the cold-viewer test: best clip of every episode first, then by score
+  final_top_n: 20           # promos in the ranked list
+  max_per_episode_in_top: 2
+  long_cut: false           # optional 90-120 s tier (competitors' top spend often runs longer)
+  embeddings: model2vec     # diversity similarity: model2vec (minishlab/potion-base-8M, 30 MB) or jaccard
+
+layers:                     # optional layers on top of a finished run (docs/process/team_board.md, v2)
+  story_graph: true          # content genome: characters, relationships, open loops, story alerts
+  engagement: true           # activity matrices + models; SIMULATED unless real activity CSVs are given
+engagement: {viewers: 4000, seed: 7, paywall_episode: 0, bootstrap: 200}
+
+cache_dir: .cache/llm
+# Paid list prices (USD per 1M tokens), checked 2026-11-19 — used only for cost estimates; free tier costs $0.
+# Sources: docs/research/open_tools.md (Gemini/Groq pricing pages); Claude prices from Anthropic's model table.
+prices_usd_per_mtok:
+  gemini-3.8-flash: {input: 0.75, output: 3.75}       # doubles on 2027-01-01; output includes thinking tokens
+  gemini-4-hydrogen: {input: 1.50, output: 7.50}
+  gemini-3.5-flash-lite: {input: 0.30, output: 2.50}
+  openai/gpt-oss-120b: {input: 0.15, output: 0.60}
+  openai/gpt-oss-20b: {input: 0.075, output: 0.30}
+  qwen/qwen3.8-27b: {input: 0.80, output: 4.00}       # preview model
+  claude-opus-5-5: {input: 4.00, output: 20.00}
+  claude-sonnet-5-5: {input: 2.00, output: 10.00}
+  claude-haiku-5-5: {input: 0.10, output: 0.50}

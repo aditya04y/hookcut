@@ -1,0 +1,16 @@
+name: audience_update
+team: audience
+description: Re-rank cuts from a saved editorial run with new audience activity.
+steps:
+  - tool: load_run
+    inputs: {path: $input}
+    save: result
+  - tool: build_studio
+    inputs: {result: $result, events: $events, simulate: $simulate}
+    save: studio
+    artifact: studio.json
+  - tool: engagement
+    inputs: {result: $result}
+    save: engagement
+    artifact: engagement.json
+    optional: true

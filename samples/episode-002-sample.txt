@@ -1,0 +1,95 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: Nora delays the sale and follows Caleb upstairs, where an old recording implicates him in the fire.
+CONTINUITY NOTES: Nora has not signed. Caleb holds her mortgage and says that Rosa left evidence in Booth 2. Sloan wants the booth demolished first.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. MARLOWE CINEMA LOBBY – NIGHT
+Scene start: 00:00.00
+Scene end: 00:22.00
+
+Actions and dialogue:
+
+**NORA (Firm):**
+Start: (00:00.00) | End: (00:02.40)
+"I'm not signing. Take me to the booth."
+
+**ACTION:**
+Start: (00:02.40) | End: (00:05.20)
+Nora pulls the papers away from Sloan, takes the brass key and heads for the stairs.
+
+**SLOAN (Controlled):**
+Start: (00:05.20) | End: (00:10.30)
+"If you miss the wire window, this offer is gone. I'm not calling you in the morning."
+
+**CALEB (Dry):**
+Start: (00:10.30) | End: (00:13.10)
+"I think she heard you the first time."
+
+**NORA (Without Looking Back):**
+Start: (00:13.10) | End: (00:17.80)
+"I don't need you to answer for me. I need you to show me where she put it."
+
+**SOUND FX:**
+Start: (00:17.80) | End: (00:22.00)
+Two sets of footsteps climb the narrow stairs. Below them, Sloan shuts her briefcase.
+
+SCENE 02
+Scene heading: INT. MARLOWE CINEMA PROJECTION BOOTH – NIGHT
+Scene start: 00:22.00
+Scene end: 01:17.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:22.00) | End: (00:25.20)
+The key turns. Across the threshold, a paper coffee cup has a lipstick mark printed on the lid.
+
+**NORA (Caught Off Guard):**
+Start: (00:25.20) | End: (00:29.30)
+"She always left the last sip. Said it was for the ghost."
+
+**CALEB (Soft):**
+Start: (00:29.30) | End: (00:35.00)
+"I used to drink it after she left. I wanted her to think somebody believed her."
+
+**ACTION:**
+Start: (00:35.00) | End: (00:39.00)
+Nora lets out a laugh that stops halfway. Caleb steadies her with a hand at her waist, then lets go.
+
+**NORA (Wary):**
+Start: (00:39.00) | End: (00:42.50)
+"Why did my mother give you a key she never gave me?"
+
+**CALEB (Plain):**
+Start: (00:42.50) | End: (00:47.40)
+"Because when she told the police the fire was set on purpose, they laughed."
+
+**ACTION:**
+Start: (00:47.40) | End: (00:51.70)
+He opens a metal reel tin marked TRAILERS. Inside are an audio recorder and a memory card.
+
+**NORA (Quiet):**
+Start: (00:51.70) | End: (00:56.80)
+"All this time I thought you walked out because I wouldn't stop defending her."
+
+**CALEB (Shaken):**
+Start: (00:56.80) | End: (01:00.70)
+"Play it. But please let it run all the way through."
+
+**ACTION:**
+Start: (01:00.70) | End: (01:04.50)
+Nora presses play and keeps her eyes on Caleb. He slides the memory card toward her too.
+
+**SOUND FX:**
+Start: (01:04.50) | End: (01:08.30)
+On the recorder, a fan rattles. Someone coughs close to the microphone.
+
+**VICTOR (Recorded, Matter-of-fact):**
+Start: (01:08.30) | End: (01:14.00)
+"I paid Caleb Price to burn the Marlowe. If he wants the rest, tell him I expect a receipt."
+
+**ACTION:**
+Start: (01:14.00) | End: (01:17.00)
+Nora takes a step away from Caleb and reaches for the door.

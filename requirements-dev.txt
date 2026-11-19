@@ -1,0 +1,4 @@
+# Development: the test suite and the MCP server (hookcut/adda/mcp_server.py is the only module that imports mcp).
+-r requirements.txt
+pytest>=8.0
+mcp>=2.3,<3

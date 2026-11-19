@@ -1,0 +1,11 @@
+name: quick_check
+team: script
+description: Check that screenplay files parse and report timestamp and other parser warnings.
+steps:
+  - tool: parse_episodes
+    inputs: {path: $input}
+    save: episodes
+  - tool: validate_episodes
+    inputs: {episodes: $episodes}
+    save: validation
+    artifact: quick_check.json

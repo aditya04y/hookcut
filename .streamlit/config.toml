@@ -1,0 +1,5 @@
+# Streamlit settings for the deployed app (app/streamlit_app.py).
+# Theme: placeholder, to be set before release.
+# [theme]
+# base = "light"
+# primaryColor = ""

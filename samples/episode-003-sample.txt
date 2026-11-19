@@ -1,0 +1,88 @@
+EPISODE NUMBER: Episode 3
+EPISODE LOGLINE: Caleb admits taking his father's money and asks Nora to watch footage that puts her brother at the cinema that night.
+CONTINUITY NOTES: A recording in Booth 2 accuses Caleb of taking money to burn the Marlowe. Nora has just reached for the door.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. MARLOWE CINEMA PROJECTION BOOTH – NIGHT
+Scene start: 00:00.00
+Scene end: 01:22.00
+
+Actions and dialogue:
+
+**CALEB (Urgent):**
+Start: (00:00.00) | End: (00:02.70)
+"I took the money. I didn't light the match."
+
+**ACTION:**
+Start: (00:02.70) | End: (00:06.80)
+Nora keeps the door ajar. Caleb backs away from it and puts both hands on the table.
+
+**NORA (Flat):**
+Start: (00:06.80) | End: (00:11.90)
+"Who was talking on that tape? Because he said your full name like he'd used it before."
+
+**CALEB (Ashamed):**
+Start: (00:11.90) | End: (00:14.30)
+"It was my father."
+
+**CAMERA:**
+Start: (00:14.30) | End: (00:17.40)
+Nora looks down at an engraved Price family watch around Caleb's wrist. He takes it off.
+
+**CALEB (Measured):**
+Start: (00:17.40) | End: (00:23.20)
+"I took his cash straight to your mom. She told me to play along long enough to get him on tape."
+
+**NORA (Hurt):**
+Start: (00:23.20) | End: (00:29.00)
+"You let me believe my mom died because she was too cheap to replace the wiring."
+
+**CALEB (Quiet):**
+Start: (00:29.00) | End: (00:34.20)
+"My father said he'd make you next. I packed a bag and called it protecting you."
+
+**NORA (Quiet):**
+Start: (00:34.20) | End: (00:39.70)
+"You don't get to decide what I can survive. You can sit next to me while I find out."
+
+**ACTION:**
+Start: (00:39.70) | End: (00:43.00)
+She slides the memory card into a laptop and angles the screen so they can both see.
+
+**CAMERA:**
+Start: (00:43.00) | End: (00:47.30)
+Grainy footage shows the theater's rear exit just before midnight. A man in a suit steps out of a black pickup.
+
+**CALEB (Certain):**
+Start: (00:47.30) | End: (00:50.40)
+"That's my dad. Look. He's got a gas can."
+
+**ACTION:**
+Start: (00:50.40) | End: (00:55.80)
+Nora scrubs back and freezes on the front plate, then photographs it with her phone.
+
+**NORA (Resolute):**
+Start: (00:55.80) | End: (01:00.10)
+"If I send this, your father is going to know it came from you."
+
+**CALEB (Steady):**
+Start: (01:00.10) | End: (01:03.40)
+"Put my name on it."
+
+**CAMERA:**
+Start: (01:03.40) | End: (01:09.20)
+The footage resumes. A second figure steps into the headlights and hands Victor a key.
+
+**NORA (Disbelieving):**
+Start: (01:09.20) | End: (01:13.80)
+"That's Miles. That's my brother letting him in."
+
+**SOUND FX:**
+Start: (01:13.80) | End: (01:16.10)
+The real booth door scrapes along the floor behind them.
+
+**MILES (From the Doorway):**
+Start: (01:16.10) | End: (01:22.00)
+"Before you send that, ask him which one of us called the fire department."

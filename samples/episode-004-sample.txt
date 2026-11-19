@@ -1,0 +1,88 @@
+EPISODE NUMBER: Episode 4
+EPISODE LOGLINE: Miles confesses his part in the fire, then Nora receives a call that challenges everything she knows about her mother's death.
+CONTINUITY NOTES: Nora saw footage of her brother Miles letting Caleb's father into the Marlowe with a gas can. Miles appeared in the booth and told her to ask who called the fire department.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. MARLOWE CINEMA PROJECTION BOOTH – NIGHT
+Scene start: 00:00.00
+Scene end: 01:24.00
+
+Actions and dialogue:
+
+**CALEB (Direct):**
+Start: (00:00.00) | End: (00:02.40)
+"You called. Then you ran."
+
+**MILES (Frantic):**
+Start: (00:02.40) | End: (00:07.80)
+"I let him in to take the inspection records, Nora. Nobody said there was going to be a fire."
+
+**NORA (Scalding):**
+Start: (00:07.80) | End: (00:12.40)
+"He carried a gas can right past you. You handed him the key."
+
+**ACTION:**
+Start: (00:12.40) | End: (00:15.50)
+Miles raises his burned left hand, then lowers it. Nora sees it and looks back at the laptop.
+
+**MILES (Barely Audible):**
+Start: (00:15.50) | End: (00:21.70)
+"I told dispatch Mom was inside. Victor grabbed the phone and said there wasn't anybody in the building."
+
+**NORA (Searching):**
+Start: (00:21.70) | End: (00:26.80)
+"There was a closed casket. They told me there was no point in looking."
+
+**SOUND FX:**
+Start: (00:26.80) | End: (00:30.00)
+Caleb's phone begins to vibrate on the table.
+
+**CAMERA:**
+Start: (00:30.00) | End: (00:33.40)
+The screen lights up with one word: DAD.
+
+**CALEB (Decisive):**
+Start: (00:33.40) | End: (00:37.90)
+"That's the first time he's called since I bought your loan."
+
+**ACTION:**
+Start: (00:37.90) | End: (00:41.20)
+Caleb turns the phone toward Nora and waits for her to reach for it.
+
+**NORA (Nervous):**
+Start: (00:41.20) | End: (00:46.20)
+"Last time I heard his voice, he was asking if I wanted roses for the funeral."
+
+**CALEB (Soft):**
+Start: (00:46.20) | End: (00:50.40)
+"Take my hand if you want to. I'll stay either way."
+
+**ACTION:**
+Start: (00:50.40) | End: (00:54.30)
+She grips his hand, backs up the footage to her email and accepts the call on speaker.
+
+**VICTOR (On Speaker, Calm):**
+Start: (00:54.30) | End: (01:00.20)
+"Nora, there's a car outside. Bring me the memory card and I'll take you to your mother."
+
+**CAMERA:**
+Start: (01:00.20) | End: (01:04.90)
+Through the booth window, headlights sweep the cinema entrance. A black pickup idles at the curb.
+
+**NORA (Unsteady):**
+Start: (01:04.90) | End: (01:09.00)
+"I buried my mother. You stood next to me while I did it."
+
+**SOUND FX:**
+Start: (01:09.00) | End: (01:13.90)
+The pickup's passenger window lowers. There is a rustle close to Victor's microphone.
+
+**ROSA (On Speaker, Strained):**
+Start: (01:13.90) | End: (01:20.30)
+"Nora, honey. Leave the card where it is. And don't let Caleb look out that window."
+
+**ACTION:**
+Start: (01:20.30) | End: (01:24.00)
+Nora lunges for Caleb as he reaches for the blind.

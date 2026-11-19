@@ -1,0 +1,18 @@
+# Private inputs and run outputs: screenplays and anything derived from them are never committed
+data/
+outputs/
+.cache/
+docs/private/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python and OS
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

@@ -1,0 +1,28 @@
+name: script_review
+team: script
+description: Review episode openings, cliffhangers, and candidate unlock points.
+steps:
+  - tool: parse_episodes
+    inputs: {path: $input}
+    save: episodes
+  # The script team reuses the promo team's episode scoring tool.
+  - tool: analyze_episodes
+    inputs: {episodes: $episodes}
+    save: analyses
+  - tool: episode_report
+    inputs: {episodes: $episodes, analyses: $analyses}
+    save: report
+    artifact: episode_report.json
+  - tool: season_summary
+    inputs: {rows: $report}
+    save: summary
+    artifact: season_summary.json
+  - tool: assemble_run
+    inputs: {path: $input, episodes: $episodes, analyses: $analyses, episode_report: $report}
+    save: result
+    artifact: result.json
+  - tool: story_graph
+    inputs: {result: $result}
+    save: graph
+    artifact: story_graph.json
+    optional: true

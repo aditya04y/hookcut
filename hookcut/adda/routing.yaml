@@ -1,0 +1,75 @@
+# Ranked within each tier. Prices mirror config.yaml in USD per million tokens.
+# RPD entries are local free-tier planning figures, not live usage limits.
+analyze:
+  - spec: gemini:gemini-3.5-flash-lite
+    family: gemini
+    tier: balanced
+    free_daily_requests: null # Team board confirms it covers 50 episodes. Project limit varies.
+    price_in: 0.30
+    price_out: 2.50
+    latency_hint: "About 2 s on the sample call"
+    fit: "Fast episode scoring on the default free-tier route."
+  - spec: gemini:gemini-3.8-flash
+    family: gemini
+    tier: quality
+    free_daily_requests: 20
+    price_in: 0.75
+    price_out: 3.75
+    latency_hint: "About 1–3 min on measured calls"
+    fit: "Picked the stronger opening in the team's hook checks."
+  - spec: gemini:gemini-4-hydrogen
+    family: gemini
+    tier: quality
+    free_daily_requests: 20
+    price_in: 1.50
+    price_out: 7.50
+    latency_hint: "About 2 min on the sample call"
+    fit: "Quality fallback with its own model quota."
+  - &oss120
+    spec: groq:openai/gpt-oss-120b
+    family: gpt-oss
+    tier: budget
+    free_daily_requests: 1000
+    price_in: 0.15
+    price_out: 0.60
+    latency_hint: "Seconds on measured calls"
+    fit: "Lower-cost structured output with larger daily request headroom."
+judge:
+  - &qwen
+    spec: groq:qwen/qwen3.8-27b
+    family: qwen
+    tier: balanced
+    free_daily_requests: 1000
+    price_in: 0.80
+    price_out: 4.00
+    latency_hint: "Under 1 s on short calls"
+    fit: "Fast structured cold-viewer review from a separate model family."
+  - <<: *oss120
+    tier: quality
+    fit: "Larger GPT-OSS model for cold-viewer reasoning."
+  - &oss20
+    spec: groq:openai/gpt-oss-20b
+    family: gpt-oss
+    tier: budget
+    free_daily_requests: 1000
+    price_in: 0.075
+    price_out: 0.30
+    latency_hint: "Low latency"
+    fit: "Lowest listed token price for short rubric judgments."
+  - spec: gemini:gemini-3.5-flash-lite
+    family: gemini
+    tier: budget
+    free_daily_requests: null
+    price_in: 0.30
+    price_out: 2.50
+    latency_hint: "About 2 s on the sample call"
+    fit: "Alternate family when Groq-served models contributed to the analysis."
+writer:
+  - <<: *oss120
+    tier: balanced
+    fit: "Fast structured copy for the final ranked list."
+  - <<: *qwen
+    tier: quality
+    fit: "Higher-priced structured alternative for editorial copy."
+  - <<: *oss20
+    fit: "Lowest listed token price for one-line explanations."

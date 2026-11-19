@@ -1,0 +1,88 @@
+EPISODE NUMBER: Episode 1
+EPISODE LOGLINE: Nora Reyes confronts her ex-fiancé at the sale of her late mother's neighborhood movie theater.
+CONTINUITY NOTES: First episode. Nora owns the Marlowe, a neighborhood movie theater in Portland. Her mother Rosa died after a fire blamed on her wiring. Nora has not spoken to Caleb since their engagement ended.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. MARLOWE CINEMA LOBBY – NIGHT
+Scene start: 00:00.00
+Scene end: 01:20.00
+
+Actions and dialogue:
+
+**NORA (Stunned):**
+Start: (00:00.00) | End: (00:02.80)
+"My ex-fiancé bought my mortgage?"
+
+**CAMERA:**
+Start: (00:02.80) | End: (00:06.20)
+Caleb Price lowers his umbrella. A framed photo beside him shows Nora in the same lobby, slipping a ring onto his finger.
+
+**SLOAN (Businesslike):**
+Start: (00:06.20) | End: (00:11.80)
+"This sale pays off the loan, whoever owns it. Sign, and my crew takes the building at seven tomorrow."
+
+**ACTION:**
+Start: (00:11.80) | End: (00:15.00)
+Nora turns Sloan's demolition rendering upside down. In its place she sets a stack of blue movie tickets.
+
+**NORA (Tight):**
+Start: (00:15.00) | End: (00:21.00)
+"My mom sold the first ticket here. She died before she could tell anyone whose fault that fire really was."
+
+**CALEB (Gentle):**
+Start: (00:21.00) | End: (00:24.30)
+"You can take your hand off the pen, Nora."
+
+**NORA (Sharp):**
+Start: (00:24.30) | End: (00:28.50)
+"Last time you asked me to trust you, I paid for a wedding by myself."
+
+**ACTION:**
+Start: (00:28.50) | End: (00:32.00)
+Caleb sets a folded bank letter beside the sale papers. Nora jerks it out from under his hand.
+
+**CALEB (Steady):**
+Start: (00:32.00) | End: (00:37.80)
+"The bank was going to foreclose Friday. I bought the loan so nobody could make you leave."
+
+**SLOAN (Dry):**
+Start: (00:37.80) | End: (00:42.00)
+"He can make you stay in debt. I can get you out tonight."
+
+**CAMERA:**
+Start: (00:42.00) | End: (00:46.00)
+An insert on the bank letter. The foreclosure date has been crossed out and initialed by Caleb.
+
+**NORA (Quiet):**
+Start: (00:46.00) | End: (00:51.40)
+"You could have knocked on my door. You didn't have to buy the building around me."
+
+**CALEB (Quiet):**
+Start: (00:51.40) | End: (00:56.50)
+"I knocked. Your porch light came on and went right back out."
+
+**SOUND FX:**
+Start: (00:56.50) | End: (00:58.70)
+Sloan clicks the pen twice against the glass counter.
+
+**NORA (Decided):**
+Start: (00:58.70) | End: (01:02.50)
+"Give me the pen. I'm done owing him anything."
+
+**ACTION:**
+Start: (01:02.50) | End: (01:07.00)
+Caleb takes an old brass key from his pocket and slides it onto the blank signature line. A red tag reads BOOTH 2.
+
+**CALEB (Urgent):**
+Start: (01:07.00) | End: (01:13.20)
+"Your mom gave me this. She left something upstairs the fire inspectors never saw."
+
+**SLOAN (Abrupt):**
+Start: (01:13.20) | End: (01:16.30)
+"Everything upstairs belongs to the buyer the second she signs."
+
+**CALEB (Low):**
+Start: (01:16.30) | End: (01:20.00)
+"Then tell her why your crew is starting with the projection booth."

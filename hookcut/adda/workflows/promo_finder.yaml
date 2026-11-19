@@ -1,0 +1,35 @@
+name: promo_finder
+team: promo
+description: Find, judge, rank, and export a shortlist of promo cuts.
+steps:
+  - tool: parse_episodes
+    inputs: {path: $input}
+    save: episodes
+  - tool: analyze_episodes
+    inputs: {episodes: $episodes}
+    save: analyses
+  - tool: build_candidates
+    inputs: {episodes: $episodes, analyses: $analyses}
+    save: candidates
+  - tool: cold_viewer_test
+    inputs: {candidates: $candidates, episodes: $episodes}
+    save: verdicts
+  - tool: rank_promos
+    inputs: {candidates: $candidates, verdicts: $verdicts, episodes: $episodes, analyses: $analyses}
+    save: ranked
+  - tool: write_why_lines
+    inputs: {promos: $ranked, episodes: $episodes}
+    save: promos
+  - tool: episode_report
+    inputs: {episodes: $episodes, analyses: $analyses}
+    save: report
+  - tool: validate_promos
+    inputs: {promos: $promos, episodes: $episodes, analyses: $analyses}
+    save: validation
+  - tool: assemble_run
+    inputs: {path: $input, episodes: $episodes, analyses: $analyses, candidates: $candidates,
+             verdicts: $verdicts, promos: $promos, episode_report: $report}
+    save: result
+  - tool: export_outputs
+    inputs: {result: $result, validation_issues: $validation, out_dir: $out}
+    save: exports

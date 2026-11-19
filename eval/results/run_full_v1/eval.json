@@ -1,0 +1,2779 @@
+{
+  "run": "run_full",
+  "created_at": "2026-11-19T18:57:55",
+  "judge": "groq:openai/gpt-oss-120b",
+  "run_models": {
+    "analyze": "gemini:gemini-3.5-flash-lite -> gemini:gemini-3.8-flash -> groq:openai/gpt-oss-120b",
+    "judge": "groq:qwen/qwen3.8-27b -> groq:openai/gpt-oss-20b",
+    "writer": "groq:openai/gpt-oss-120b -> groq:qwen/qwen3.8-27b"
+  },
+  "protocol": {
+    "n": 20,
+    "seed": 7,
+    "tuning_episodes": [
+      1,
+      23,
+      44
+    ]
+  },
+  "warnings": [
+    "eval judge family 'openai' also judged in the run (1 of 64 run judge calls; calls by family: {'qwen': 63, 'openai': 1}): not independent for those clips"
+  ],
+  "plan": {
+    "tool": 20,
+    "last_window": 20,
+    "random": 20,
+    "judge2": 0,
+    "total": 60
+  },
+  "budget_counter": 2,
+  "cap": 70,
+  "stats": {
+    "tool": {
+      "n_clips": 20,
+      "n_judged": 20,
+      "n_missing": 0,
+      "verdicts": {
+        "pass": 15,
+        "borderline": 5,
+        "fail": 0
+      },
+      "pass_rate": {
+        "n": 20,
+        "mean": 0.75,
+        "ci90": [
+          0.6,
+          0.9
+        ]
+      },
+      "standalone": {
+        "n": 20,
+        "mean": 3.9,
+        "ci90": [
+          3.8,
+          4.0
+        ]
+      },
+      "keep_watching": {
+        "n": 20,
+        "mean": 3.75,
+        "ci90": [
+          3.6,
+          3.9
+        ]
+      },
+      "hook_lands": {
+        "n": 20,
+        "mean": 0.85,
+        "ci90": [
+          0.7,
+          0.95
+        ]
+      },
+      "valid_validator": {
+        "n": 20,
+        "mean": 1.0,
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "valid_own_checks": {
+        "n": 20,
+        "mean": 1.0,
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "cuts_a_line": 0,
+      "validator_issue_counts": {}
+    },
+    "last_window": {
+      "n_clips": 20,
+      "n_judged": 20,
+      "n_missing": 0,
+      "verdicts": {
+        "pass": 4,
+        "borderline": 15,
+        "fail": 1
+      },
+      "pass_rate": {
+        "n": 20,
+        "mean": 0.2,
+        "ci90": [
+          0.05,
+          0.35
+        ]
+      },
+      "standalone": {
+        "n": 20,
+        "mean": 3.6,
+        "ci90": [
+          3.4,
+          3.8
+        ]
+      },
+      "keep_watching": {
+        "n": 20,
+        "mean": 3.4,
+        "ci90": [
+          3.2,
+          3.6
+        ]
+      },
+      "hook_lands": {
+        "n": 20,
+        "mean": 0.3,
+        "ci90": [
+          0.15,
+          0.45
+        ]
+      },
+      "valid_validator": {
+        "n": 20,
+        "mean": 0.6,
+        "ci90": [
+          0.4,
+          0.75
+        ]
+      },
+      "valid_own_checks": {
+        "n": 20,
+        "mean": 1.0,
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "cuts_a_line": 0,
+      "validator_issue_counts": {
+        "cliff_at_end": 8
+      }
+    },
+    "random": {
+      "n_clips": 20,
+      "n_judged": 20,
+      "n_missing": 0,
+      "verdicts": {
+        "pass": 10,
+        "borderline": 8,
+        "fail": 2
+      },
+      "pass_rate": {
+        "n": 20,
+        "mean": 0.5,
+        "ci90": [
+          0.3,
+          0.7
+        ]
+      },
+      "standalone": {
+        "n": 20,
+        "mean": 3.9,
+        "ci90": [
+          3.8,
+          4.0
+        ]
+      },
+      "keep_watching": {
+        "n": 20,
+        "mean": 3.45,
+        "ci90": [
+          3.2,
+          3.7
+        ]
+      },
+      "hook_lands": {
+        "n": 20,
+        "mean": 0.55,
+        "ci90": [
+          0.35,
+          0.75
+        ]
+      },
+      "valid_validator": {
+        "n": 20,
+        "mean": 1.0,
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "valid_own_checks": {
+        "n": 20,
+        "mean": 1.0,
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "cuts_a_line": 0,
+      "validator_issue_counts": {}
+    },
+    "tool_excl_tuning": {
+      "n_clips": 18,
+      "n_judged": 18,
+      "n_missing": 0,
+      "verdicts": {
+        "pass": 13,
+        "borderline": 5,
+        "fail": 0
+      },
+      "pass_rate": {
+        "n": 18,
+        "mean": 0.7222222222222222,
+        "ci90": [
+          0.5555555555555556,
+          0.8888888888888888
+        ]
+      },
+      "standalone": {
+        "n": 18,
+        "mean": 3.888888888888889,
+        "ci90": [
+          3.7222222222222223,
+          4.0
+        ]
+      },
+      "keep_watching": {
+        "n": 18,
+        "mean": 3.7222222222222223,
+        "ci90": [
+          3.5555555555555554,
+          3.888888888888889
+        ]
+      },
+      "hook_lands": {
+        "n": 18,
+        "mean": 0.8333333333333334,
+        "ci90": [
+          0.6666666666666666,
+          0.9444444444444444
+        ]
+      },
+      "valid_validator": {
+        "n": 18,
+        "mean": 1.0,
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "valid_own_checks": {
+        "n": 18,
+        "mean": 1.0,
+        "ci90": [
+          1.0,
+          1.0
+        ]
+      },
+      "cuts_a_line": 0,
+      "validator_issue_counts": {}
+    }
+  },
+  "diffs": {
+    "tool_minus_last_window.pass": {
+      "diff": 0.55,
+      "ci90": [
+        0.30000000000000004,
+        0.75
+      ],
+      "n_tool": 20,
+      "n_base": 20
+    },
+    "tool_minus_last_window.keep_watching": {
+      "diff": 0.3500000000000001,
+      "ci90": [
+        0.050000000000000266,
+        0.6000000000000001
+      ],
+      "n_tool": 20,
+      "n_base": 20
+    },
+    "tool_minus_last_window.standalone": {
+      "diff": 0.2999999999999998,
+      "ci90": [
+        0.09999999999999964,
+        0.5
+      ],
+      "n_tool": 20,
+      "n_base": 20
+    },
+    "tool_minus_random.pass": {
+      "diff": 0.25,
+      "ci90": [
+        0.0,
+        0.5
+      ],
+      "n_tool": 20,
+      "n_base": 20
+    },
+    "tool_minus_random.keep_watching": {
+      "diff": 0.2999999999999998,
+      "ci90": [
+        0.0,
+        0.6000000000000001
+      ],
+      "n_tool": 20,
+      "n_base": 20
+    },
+    "tool_minus_random.standalone": {
+      "diff": 0.0,
+      "ci90": [
+        -0.15000000000000036,
+        0.15000000000000036
+      ],
+      "n_tool": 20,
+      "n_base": 20
+    }
+  },
+  "agreement": {
+    "second_judge": "run's stored verdicts",
+    "n": 20,
+    "verdict_agreement": 0.45,
+    "kappa_pass": -1.0092936587501424e-16,
+    "spearman_keep_watching": 0.09938079899999065,
+    "mean_abs_diff_standalone": 0.35,
+    "pass_rate_1": 0.75,
+    "pass_rate_2": 0.4,
+    "second_models": [
+      "groq:openai/gpt-oss-20b",
+      "groq:qwen/qwen3.8-27b"
+    ]
+  },
+  "diagnostics": {
+    "spearman_prelim_vs_keep_watching_tool": 0.10035184828481863
+  },
+  "tokens": {
+    "input": 3839,
+    "output": 1153,
+    "live_calls": 2,
+    "cached_calls": 58,
+    "errors": 0
+  },
+  "clips": [
+    {
+      "set": "tool",
+      "id": "C0048",
+      "kind": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": 39.0,
+          "end": 79.0
+        }
+      ],
+      "timecodes": "E01 00:39.00-01:19.00",
+      "duration": 40.0,
+      "rank": 1,
+      "prelim_score": 9.75,
+      "hook_score": 5.0,
+      "cliff_score": 3.0,
+      "spoiler": 1,
+      "needs_context": 0,
+      "from_tuning_episode": true,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0053",
+      "kind": "single",
+      "episodes": [
+        4
+      ],
+      "segments": [
+        {
+          "episode": 4,
+          "start": 72.0,
+          "end": 114.8
+        }
+      ],
+      "timecodes": "E04 01:12.00-01:54.80",
+      "duration": 42.8,
+      "rank": 2,
+      "prelim_score": 9.6,
+      "hook_score": 4.0,
+      "cliff_score": 4.0,
+      "spoiler": 0,
+      "needs_context": 1,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [
+          "E04.B085"
+        ],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0001",
+      "kind": "single",
+      "episodes": [
+        15
+      ],
+      "segments": [
+        {
+          "episode": 15,
+          "start": 60.0,
+          "end": 86.0
+        }
+      ],
+      "timecodes": "E15 01:00.00-01:26.00",
+      "duration": 26.0,
+      "rank": 3,
+      "prelim_score": 12.0,
+      "hook_score": 5.0,
+      "cliff_score": 5.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0025",
+      "kind": "single",
+      "episodes": [
+        13
+      ],
+      "segments": [
+        {
+          "episode": 13,
+          "start": 53.5,
+          "end": 103.0
+        }
+      ],
+      "timecodes": "E13 00:53.50-01:43.00",
+      "duration": 49.5,
+      "rank": 4,
+      "prelim_score": 10.55,
+      "hook_score": 5.0,
+      "cliff_score": 4.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0046",
+      "kind": "single",
+      "episodes": [
+        10
+      ],
+      "segments": [
+        {
+          "episode": 10,
+          "start": 33.2,
+          "end": 86.5
+        }
+      ],
+      "timecodes": "E10 00:33.20-01:26.50",
+      "duration": 53.3,
+      "rank": 5,
+      "prelim_score": 9.92,
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "spoiler": 1,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0033",
+      "kind": "single",
+      "episodes": [
+        32
+      ],
+      "segments": [
+        {
+          "episode": 32,
+          "start": 119.5,
+          "end": 154.38
+        }
+      ],
+      "timecodes": "E32 01:59.50-02:34.38",
+      "duration": 34.88,
+      "rank": 6,
+      "prelim_score": 10.2,
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "spoiler": 0,
+      "needs_context": 2,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0010",
+      "kind": "single",
+      "episodes": [
+        37
+      ],
+      "segments": [
+        {
+          "episode": 37,
+          "start": 113.5,
+          "end": 156.47
+        }
+      ],
+      "timecodes": "E37 01:53.50-02:36.47",
+      "duration": 42.97,
+      "rank": 7,
+      "prelim_score": 11.2,
+      "hook_score": 5.0,
+      "cliff_score": 5.0,
+      "spoiler": 0,
+      "needs_context": 2,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 4,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0015",
+      "kind": "single",
+      "episodes": [
+        34
+      ],
+      "segments": [
+        {
+          "episode": 34,
+          "start": 148.9,
+          "end": 184.5
+        }
+      ],
+      "timecodes": "E34 02:28.90-03:04.50",
+      "duration": 35.6,
+      "rank": 8,
+      "prelim_score": 11.0,
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0012",
+      "kind": "single",
+      "episodes": [
+        5
+      ],
+      "segments": [
+        {
+          "episode": 5,
+          "start": 54.0,
+          "end": 96.5
+        }
+      ],
+      "timecodes": "E05 00:54.00-01:36.50",
+      "duration": 42.5,
+      "rank": 9,
+      "prelim_score": 11.0,
+      "hook_score": 5.0,
+      "cliff_score": 4.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0014",
+      "kind": "single",
+      "episodes": [
+        12
+      ],
+      "segments": [
+        {
+          "episode": 12,
+          "start": 52.4,
+          "end": 84.7
+        }
+      ],
+      "timecodes": "E12 00:52.40-01:24.70",
+      "duration": 32.3,
+      "rank": 10,
+      "prelim_score": 11.0,
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0021",
+      "kind": "single",
+      "episodes": [
+        33
+      ],
+      "segments": [
+        {
+          "episode": 33,
+          "start": 123.5,
+          "end": 156.2
+        }
+      ],
+      "timecodes": "E33 02:03.50-02:36.20",
+      "duration": 32.7,
+      "rank": 11,
+      "prelim_score": 10.75,
+      "hook_score": 5.0,
+      "cliff_score": 4.0,
+      "spoiler": 1,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0009",
+      "kind": "single",
+      "episodes": [
+        3
+      ],
+      "segments": [
+        {
+          "episode": 3,
+          "start": 84.0,
+          "end": 135.5
+        }
+      ],
+      "timecodes": "E03 01:24.00-02:15.50",
+      "duration": 51.5,
+      "rank": 12,
+      "prelim_score": 11.35,
+      "hook_score": 5.0,
+      "cliff_score": 5.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [
+          "E03.B113"
+        ],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0037",
+      "kind": "single",
+      "episodes": [
+        7
+      ],
+      "segments": [
+        {
+          "episode": 7,
+          "start": 29.8,
+          "end": 69.5
+        }
+      ],
+      "timecodes": "E07 00:29.80-01:09.50",
+      "duration": 39.7,
+      "rank": 13,
+      "prelim_score": 10.0,
+      "hook_score": 4.0,
+      "cliff_score": 4.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0042",
+      "kind": "single",
+      "episodes": [
+        42
+      ],
+      "segments": [
+        {
+          "episode": 42,
+          "start": 0.0,
+          "end": 33.8
+        }
+      ],
+      "timecodes": "E42 00:00.00-00:33.80",
+      "duration": 33.8,
+      "rank": 14,
+      "prelim_score": 10.0,
+      "hook_score": 4.0,
+      "cliff_score": 4.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0008",
+      "kind": "single",
+      "episodes": [
+        23
+      ],
+      "segments": [
+        {
+          "episode": 23,
+          "start": 86.0,
+          "end": 131.5
+        }
+      ],
+      "timecodes": "E23 01:26.00-02:11.50",
+      "duration": 45.5,
+      "rank": 15,
+      "prelim_score": 11.45,
+      "hook_score": 5.0,
+      "cliff_score": 5.0,
+      "spoiler": 2,
+      "needs_context": 0,
+      "from_tuning_episode": true,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0004",
+      "kind": "single",
+      "episodes": [
+        26
+      ],
+      "segments": [
+        {
+          "episode": 26,
+          "start": 90.8,
+          "end": 120.88
+        }
+      ],
+      "timecodes": "E26 01:30.80-02:00.88",
+      "duration": 30.08,
+      "rank": 16,
+      "prelim_score": 11.5,
+      "hook_score": 5.0,
+      "cliff_score": 5.0,
+      "spoiler": 2,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 1,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [
+          "E26.B036"
+        ],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0006",
+      "kind": "single",
+      "episodes": [
+        45
+      ],
+      "segments": [
+        {
+          "episode": 45,
+          "start": 86.5,
+          "end": 121.75
+        }
+      ],
+      "timecodes": "E45 01:26.50-02:01.75",
+      "duration": 35.25,
+      "rank": 17,
+      "prelim_score": 11.5,
+      "hook_score": 5.0,
+      "cliff_score": 5.0,
+      "spoiler": 2,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0030",
+      "kind": "single",
+      "episodes": [
+        41
+      ],
+      "segments": [
+        {
+          "episode": 41,
+          "start": 57.8,
+          "end": 93.5
+        }
+      ],
+      "timecodes": "E41 00:57.80-01:33.50",
+      "duration": 35.7,
+      "rank": 18,
+      "prelim_score": 10.5,
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "spoiler": 2,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0034",
+      "kind": "single",
+      "episodes": [
+        29
+      ],
+      "segments": [
+        {
+          "episode": 29,
+          "start": 67.0,
+          "end": 112.8
+        }
+      ],
+      "timecodes": "E29 01:07.00-01:52.80",
+      "duration": 45.8,
+      "rank": 19,
+      "prelim_score": 10.02,
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "spoiler": 2,
+      "needs_context": 1,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "tool",
+      "id": "C0058",
+      "kind": "single",
+      "episodes": [
+        11
+      ],
+      "segments": [
+        {
+          "episode": 11,
+          "start": 71.6,
+          "end": 102.0
+        }
+      ],
+      "timecodes": "E11 01:11.60-01:42.00",
+      "duration": 30.4,
+      "rank": 20,
+      "prelim_score": 9.5,
+      "hook_score": 3.0,
+      "cliff_score": 5.0,
+      "spoiler": 2,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E01",
+      "kind": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": 92.1,
+          "end": 138.0
+        }
+      ],
+      "timecodes": "E01 01:32.10-02:18.00",
+      "duration": 45.9,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": true,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E04",
+      "kind": "single",
+      "episodes": [
+        4
+      ],
+      "segments": [
+        {
+          "episode": 4,
+          "start": 107.0,
+          "end": 151.4
+        }
+      ],
+      "timecodes": "E04 01:47.00-02:31.40",
+      "duration": 44.4,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E06",
+      "kind": "single",
+      "episodes": [
+        6
+      ],
+      "segments": [
+        {
+          "episode": 6,
+          "start": 70.1,
+          "end": 115.0
+        }
+      ],
+      "timecodes": "E06 01:10.10-01:55.00",
+      "duration": 44.9,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E09",
+      "kind": "single",
+      "episodes": [
+        9
+      ],
+      "segments": [
+        {
+          "episode": 9,
+          "start": 70.5,
+          "end": 115.5
+        }
+      ],
+      "timecodes": "E09 01:10.50-01:55.50",
+      "duration": 45.0,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E11",
+      "kind": "single",
+      "episodes": [
+        11
+      ],
+      "segments": [
+        {
+          "episode": 11,
+          "start": 67.5,
+          "end": 112.75
+        }
+      ],
+      "timecodes": "E11 01:07.50-01:52.75",
+      "duration": 45.25,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E14",
+      "kind": "single",
+      "episodes": [
+        14
+      ],
+      "segments": [
+        {
+          "episode": 14,
+          "start": 43.5,
+          "end": 87.63
+        }
+      ],
+      "timecodes": "E14 00:43.50-01:27.63",
+      "duration": 44.13,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E16",
+      "kind": "single",
+      "episodes": [
+        16
+      ],
+      "segments": [
+        {
+          "episode": 16,
+          "start": 38.2,
+          "end": 83.19
+        }
+      ],
+      "timecodes": "E16 00:38.20-01:23.19",
+      "duration": 44.99,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E19",
+      "kind": "single",
+      "episodes": [
+        19
+      ],
+      "segments": [
+        {
+          "episode": 19,
+          "start": 73.5,
+          "end": 119.63
+        }
+      ],
+      "timecodes": "E19 01:13.50-01:59.63",
+      "duration": 46.13,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 4,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E22",
+      "kind": "single",
+      "episodes": [
+        22
+      ],
+      "segments": [
+        {
+          "episode": 22,
+          "start": 84.8,
+          "end": 131.0
+        }
+      ],
+      "timecodes": "E22 01:24.80-02:11.00",
+      "duration": 46.2,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E24",
+      "kind": "single",
+      "episodes": [
+        24
+      ],
+      "segments": [
+        {
+          "episode": 24,
+          "start": 48.0,
+          "end": 92.0
+        }
+      ],
+      "timecodes": "E24 00:48.00-01:32.00",
+      "duration": 44.0,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E27",
+      "kind": "single",
+      "episodes": [
+        27
+      ],
+      "segments": [
+        {
+          "episode": 27,
+          "start": 104.2,
+          "end": 150.5
+        }
+      ],
+      "timecodes": "E27 01:44.20-02:30.50",
+      "duration": 46.3,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E29",
+      "kind": "single",
+      "episodes": [
+        29
+      ],
+      "segments": [
+        {
+          "episode": 29,
+          "start": 71.8,
+          "end": 116.69
+        }
+      ],
+      "timecodes": "E29 01:11.80-01:56.69",
+      "duration": 44.89,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 4,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E32",
+      "kind": "single",
+      "episodes": [
+        32
+      ],
+      "segments": [
+        {
+          "episode": 32,
+          "start": 109.4,
+          "end": 154.38
+        }
+      ],
+      "timecodes": "E32 01:49.40-02:34.38",
+      "duration": 44.98,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 4,
+      "hook_lands": false,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E35",
+      "kind": "single",
+      "episodes": [
+        35
+      ],
+      "segments": [
+        {
+          "episode": 35,
+          "start": 113.0,
+          "end": 157.5
+        }
+      ],
+      "timecodes": "E35 01:53.00-02:37.50",
+      "duration": 44.5,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E37",
+      "kind": "single",
+      "episodes": [
+        37
+      ],
+      "segments": [
+        {
+          "episode": 37,
+          "start": 112.5,
+          "end": 156.47
+        }
+      ],
+      "timecodes": "E37 01:52.50-02:36.47",
+      "duration": 43.97,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E40",
+      "kind": "single",
+      "episodes": [
+        40
+      ],
+      "segments": [
+        {
+          "episode": 40,
+          "start": 65.0,
+          "end": 110.08
+        }
+      ],
+      "timecodes": "E40 01:05.00-01:50.08",
+      "duration": 45.08,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E42",
+      "kind": "single",
+      "episodes": [
+        42
+      ],
+      "segments": [
+        {
+          "episode": 42,
+          "start": 33.8,
+          "end": 77.8
+        }
+      ],
+      "timecodes": "E42 00:33.80-01:17.80",
+      "duration": 44.0,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E45",
+      "kind": "single",
+      "episodes": [
+        45
+      ],
+      "segments": [
+        {
+          "episode": 45,
+          "start": 74.6,
+          "end": 121.75
+        }
+      ],
+      "timecodes": "E45 01:14.60-02:01.75",
+      "duration": 47.15,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E47",
+      "kind": "single",
+      "episodes": [
+        47
+      ],
+      "segments": [
+        {
+          "episode": 47,
+          "start": 88.2,
+          "end": 134.0
+        }
+      ],
+      "timecodes": "E47 01:28.20-02:14.00",
+      "duration": 45.8,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "fail",
+      "standalone": 4,
+      "keep_watching": 2,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [
+        "cliff_at_end"
+      ],
+      "valid": false,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "last_window",
+      "id": "LW-E50",
+      "kind": "single",
+      "episodes": [
+        50
+      ],
+      "segments": [
+        {
+          "episode": 50,
+          "start": 35.0,
+          "end": 80.0
+        }
+      ],
+      "timecodes": "E50 00:35.00-01:20.00",
+      "duration": 45.0,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E01-1",
+      "kind": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": 15.5,
+          "end": 50.0
+        }
+      ],
+      "timecodes": "E01 00:15.50-00:50.00",
+      "duration": 34.5,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": true,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E04-1",
+      "kind": "single",
+      "episodes": [
+        4
+      ],
+      "segments": [
+        {
+          "episode": 4,
+          "start": 7.8,
+          "end": 46.0
+        }
+      ],
+      "timecodes": "E04 00:07.80-00:46.00",
+      "duration": 38.2,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E06-1",
+      "kind": "single",
+      "episodes": [
+        6
+      ],
+      "segments": [
+        {
+          "episode": 6,
+          "start": 29.0,
+          "end": 64.3
+        }
+      ],
+      "timecodes": "E06 00:29.00-01:04.30",
+      "duration": 35.3,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "fail",
+      "standalone": 3,
+      "keep_watching": 2,
+      "hook_lands": false,
+      "n_confusions": 4,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E09-1",
+      "kind": "single",
+      "episodes": [
+        9
+      ],
+      "segments": [
+        {
+          "episode": 9,
+          "start": 45.6,
+          "end": 70.5
+        }
+      ],
+      "timecodes": "E09 00:45.60-01:10.50",
+      "duration": 24.9,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "fail",
+      "standalone": 4,
+      "keep_watching": 2,
+      "hook_lands": false,
+      "n_confusions": 0,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E11-1",
+      "kind": "single",
+      "episodes": [
+        11
+      ],
+      "segments": [
+        {
+          "episode": 11,
+          "start": 37.4,
+          "end": 63.8
+        }
+      ],
+      "timecodes": "E11 00:37.40-01:03.80",
+      "duration": 26.4,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E14-1",
+      "kind": "single",
+      "episodes": [
+        14
+      ],
+      "segments": [
+        {
+          "episode": 14,
+          "start": 5.6,
+          "end": 32.0
+        }
+      ],
+      "timecodes": "E14 00:05.60-00:32.00",
+      "duration": 26.4,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E16-1",
+      "kind": "single",
+      "episodes": [
+        16
+      ],
+      "segments": [
+        {
+          "episode": 16,
+          "start": 41.2,
+          "end": 74.8
+        }
+      ],
+      "timecodes": "E16 00:41.20-01:14.80",
+      "duration": 33.6,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E19-1",
+      "kind": "single",
+      "episodes": [
+        19
+      ],
+      "segments": [
+        {
+          "episode": 19,
+          "start": 20.6,
+          "end": 47.1
+        }
+      ],
+      "timecodes": "E19 00:20.60-00:47.10",
+      "duration": 26.5,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E22-1",
+      "kind": "single",
+      "episodes": [
+        22
+      ],
+      "segments": [
+        {
+          "episode": 22,
+          "start": 88.5,
+          "end": 125.8
+        }
+      ],
+      "timecodes": "E22 01:28.50-02:05.80",
+      "duration": 37.3,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 3,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E24-1",
+      "kind": "single",
+      "episodes": [
+        24
+      ],
+      "segments": [
+        {
+          "episode": 24,
+          "start": 22.2,
+          "end": 57.8
+        }
+      ],
+      "timecodes": "E24 00:22.20-00:57.80",
+      "duration": 35.6,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E27-1",
+      "kind": "single",
+      "episodes": [
+        27
+      ],
+      "segments": [
+        {
+          "episode": 27,
+          "start": 5.8,
+          "end": 48.8
+        }
+      ],
+      "timecodes": "E27 00:05.80-00:48.80",
+      "duration": 43.0,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": false,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E29-1",
+      "kind": "single",
+      "episodes": [
+        29
+      ],
+      "segments": [
+        {
+          "episode": 29,
+          "start": 21.0,
+          "end": 63.8
+        }
+      ],
+      "timecodes": "E29 00:21.00-01:03.80",
+      "duration": 42.8,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E32-1",
+      "kind": "single",
+      "episodes": [
+        32
+      ],
+      "segments": [
+        {
+          "episode": 32,
+          "start": 15.8,
+          "end": 42.8
+        }
+      ],
+      "timecodes": "E32 00:15.80-00:42.80",
+      "duration": 27.0,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E35-1",
+      "kind": "single",
+      "episodes": [
+        35
+      ],
+      "segments": [
+        {
+          "episode": 35,
+          "start": 104.2,
+          "end": 134.0
+        }
+      ],
+      "timecodes": "E35 01:44.20-02:14.00",
+      "duration": 29.8,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E37-1",
+      "kind": "single",
+      "episodes": [
+        37
+      ],
+      "segments": [
+        {
+          "episode": 37,
+          "start": 74.2,
+          "end": 103.2
+        }
+      ],
+      "timecodes": "E37 01:14.20-01:43.20",
+      "duration": 29.0,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E40-1",
+      "kind": "single",
+      "episodes": [
+        40
+      ],
+      "segments": [
+        {
+          "episode": 40,
+          "start": 26.2,
+          "end": 66.8
+        }
+      ],
+      "timecodes": "E40 00:26.20-01:06.80",
+      "duration": 40.6,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E42-1",
+      "kind": "single",
+      "episodes": [
+        42
+      ],
+      "segments": [
+        {
+          "episode": 42,
+          "start": 1.0,
+          "end": 39.8
+        }
+      ],
+      "timecodes": "E42 00:01.00-00:39.80",
+      "duration": 38.8,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "pass",
+      "standalone": 4,
+      "keep_watching": 4,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E45-1",
+      "kind": "single",
+      "episodes": [
+        45
+      ],
+      "segments": [
+        {
+          "episode": 45,
+          "start": 19.4,
+          "end": 48.8
+        }
+      ],
+      "timecodes": "E45 00:19.40-00:48.80",
+      "duration": 29.4,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 1,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E47-1",
+      "kind": "single",
+      "episodes": [
+        47
+      ],
+      "segments": [
+        {
+          "episode": 47,
+          "start": 42.5,
+          "end": 78.8
+        }
+      ],
+      "timecodes": "E47 00:42.50-01:18.80",
+      "duration": 36.3,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": false,
+      "n_confusions": 3,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    },
+    {
+      "set": "random",
+      "id": "RW-E50-1",
+      "kind": "single",
+      "episodes": [
+        50
+      ],
+      "segments": [
+        {
+          "episode": 50,
+          "start": 27.2,
+          "end": 59.8
+        }
+      ],
+      "timecodes": "E50 00:27.20-00:59.80",
+      "duration": 32.6,
+      "rank": null,
+      "prelim_score": 1.0,
+      "hook_score": 0.0,
+      "cliff_score": 0.0,
+      "spoiler": 0,
+      "needs_context": 0,
+      "from_tuning_episode": false,
+      "judged": true,
+      "verdict": "borderline",
+      "standalone": 4,
+      "keep_watching": 3,
+      "hook_lands": true,
+      "n_confusions": 2,
+      "judge_model": "groq:openai/gpt-oss-120b",
+      "validator_issues": [],
+      "valid": true,
+      "own_checks": {
+        "length_ok": true,
+        "hook_in_window": true,
+        "cut_beats": [],
+        "cut_action_sfx": [],
+        "ok": true
+      }
+    }
+  ]
+}

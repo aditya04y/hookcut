@@ -1,0 +1,2081 @@
+{
+  "show": "The Marlowe After Midnight",
+  "created_at": "2026-11-19T00:00:00",
+  "config": {
+    "fixture": "hand-authored"
+  },
+  "episodes": [
+    {
+      "number": 1,
+      "source_file": "episode-001-sample.txt",
+      "source_id": null,
+      "logline": "Nora Reyes confronts her ex-fiancé at the sale of her late mother's neighborhood movie theater.",
+      "continuity_notes": "First episode. Nora owns the Marlowe, a neighborhood movie theater in Portland. Her mother Rosa died after a fire blamed on her wiring. Nora has not spoken to Caleb since their engagement ended.",
+      "scenes": [
+        {
+          "number": 1,
+          "heading": "INT. MARLOWE CINEMA LOBBY – NIGHT",
+          "start": 0.0,
+          "end": 80.0
+        }
+      ],
+      "beats": [
+        {
+          "id": "E01.B001",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Stunned",
+          "text": "\"My ex-fiancé bought my mortgage?\"",
+          "start": 0.0,
+          "end": 2.8
+        },
+        {
+          "id": "E01.B002",
+          "episode": 1,
+          "scene": 1,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "Caleb Price lowers his umbrella. A framed photo beside him shows Nora in the same lobby, slipping a ring onto his finger.",
+          "start": 2.8,
+          "end": 6.2
+        },
+        {
+          "id": "E01.B003",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "SLOAN",
+          "delivery": "Businesslike",
+          "text": "\"This sale pays off the loan, whoever owns it. Sign, and my crew takes the building at seven tomorrow.\"",
+          "start": 6.2,
+          "end": 11.8
+        },
+        {
+          "id": "E01.B004",
+          "episode": 1,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora turns Sloan's demolition rendering upside down. In its place she sets a stack of blue movie tickets.",
+          "start": 11.8,
+          "end": 15.0
+        },
+        {
+          "id": "E01.B005",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Tight",
+          "text": "\"My mom sold the first ticket here. She died before she could tell anyone whose fault that fire really was.\"",
+          "start": 15.0,
+          "end": 21.0
+        },
+        {
+          "id": "E01.B006",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Gentle",
+          "text": "\"You can take your hand off the pen, Nora.\"",
+          "start": 21.0,
+          "end": 24.3
+        },
+        {
+          "id": "E01.B007",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Sharp",
+          "text": "\"Last time you asked me to trust you, I paid for a wedding by myself.\"",
+          "start": 24.3,
+          "end": 28.5
+        },
+        {
+          "id": "E01.B008",
+          "episode": 1,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Caleb sets a folded bank letter beside the sale papers. Nora jerks it out from under his hand.",
+          "start": 28.5,
+          "end": 32.0
+        },
+        {
+          "id": "E01.B009",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Steady",
+          "text": "\"The bank was going to foreclose Friday. I bought the loan so nobody could make you leave.\"",
+          "start": 32.0,
+          "end": 37.8
+        },
+        {
+          "id": "E01.B010",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "SLOAN",
+          "delivery": "Dry",
+          "text": "\"He can make you stay in debt. I can get you out tonight.\"",
+          "start": 37.8,
+          "end": 42.0
+        },
+        {
+          "id": "E01.B011",
+          "episode": 1,
+          "scene": 1,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "An insert on the bank letter. The foreclosure date has been crossed out and initialed by Caleb.",
+          "start": 42.0,
+          "end": 46.0
+        },
+        {
+          "id": "E01.B012",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Quiet",
+          "text": "\"You could have knocked on my door. You didn't have to buy the building around me.\"",
+          "start": 46.0,
+          "end": 51.4
+        },
+        {
+          "id": "E01.B013",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Quiet",
+          "text": "\"I knocked. Your porch light came on and went right back out.\"",
+          "start": 51.4,
+          "end": 56.5
+        },
+        {
+          "id": "E01.B014",
+          "episode": 1,
+          "scene": 1,
+          "kind": "sfx",
+          "speaker": null,
+          "delivery": null,
+          "text": "Sloan clicks the pen twice against the glass counter.",
+          "start": 56.5,
+          "end": 58.7
+        },
+        {
+          "id": "E01.B015",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Decided",
+          "text": "\"Give me the pen. I'm done owing him anything.\"",
+          "start": 58.7,
+          "end": 62.5
+        },
+        {
+          "id": "E01.B016",
+          "episode": 1,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Caleb takes an old brass key from his pocket and slides it onto the blank signature line. A red tag reads BOOTH 2.",
+          "start": 62.5,
+          "end": 67.0
+        },
+        {
+          "id": "E01.B017",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Urgent",
+          "text": "\"Your mom gave me this. She left something upstairs the fire inspectors never saw.\"",
+          "start": 67.0,
+          "end": 73.2
+        },
+        {
+          "id": "E01.B018",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "SLOAN",
+          "delivery": "Abrupt",
+          "text": "\"Everything upstairs belongs to the buyer the second she signs.\"",
+          "start": 73.2,
+          "end": 76.3
+        },
+        {
+          "id": "E01.B019",
+          "episode": 1,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Low",
+          "text": "\"Then tell her why your crew is starting with the projection booth.\"",
+          "start": 76.3,
+          "end": 80.0
+        }
+      ],
+      "duration": 80.0,
+      "warnings": []
+    },
+    {
+      "number": 2,
+      "source_file": "episode-002-sample.txt",
+      "source_id": null,
+      "logline": "Nora delays the sale and follows Caleb upstairs, where an old recording implicates him in the fire.",
+      "continuity_notes": "Nora has not signed. Caleb holds her mortgage and says that Rosa left evidence in Booth 2. Sloan wants the booth demolished first.",
+      "scenes": [
+        {
+          "number": 1,
+          "heading": "INT. MARLOWE CINEMA LOBBY – NIGHT",
+          "start": 0.0,
+          "end": 22.0
+        },
+        {
+          "number": 2,
+          "heading": "INT. MARLOWE CINEMA PROJECTION BOOTH – NIGHT",
+          "start": 22.0,
+          "end": 77.0
+        }
+      ],
+      "beats": [
+        {
+          "id": "E02.B001",
+          "episode": 2,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Firm",
+          "text": "\"I'm not signing. Take me to the booth.\"",
+          "start": 0.0,
+          "end": 2.4
+        },
+        {
+          "id": "E02.B002",
+          "episode": 2,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora pulls the papers away from Sloan, takes the brass key and heads for the stairs.",
+          "start": 2.4,
+          "end": 5.2
+        },
+        {
+          "id": "E02.B003",
+          "episode": 2,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "SLOAN",
+          "delivery": "Controlled",
+          "text": "\"If you miss the wire window, this offer is gone. I'm not calling you in the morning.\"",
+          "start": 5.2,
+          "end": 10.3
+        },
+        {
+          "id": "E02.B004",
+          "episode": 2,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Dry",
+          "text": "\"I think she heard you the first time.\"",
+          "start": 10.3,
+          "end": 13.1
+        },
+        {
+          "id": "E02.B005",
+          "episode": 2,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Without Looking Back",
+          "text": "\"I don't need you to answer for me. I need you to show me where she put it.\"",
+          "start": 13.1,
+          "end": 17.8
+        },
+        {
+          "id": "E02.B006",
+          "episode": 2,
+          "scene": 1,
+          "kind": "sfx",
+          "speaker": null,
+          "delivery": null,
+          "text": "Two sets of footsteps climb the narrow stairs. Below them, Sloan shuts her briefcase.",
+          "start": 17.8,
+          "end": 22.0
+        },
+        {
+          "id": "E02.B007",
+          "episode": 2,
+          "scene": 2,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "The key turns. Across the threshold, a paper coffee cup has a lipstick mark printed on the lid.",
+          "start": 22.0,
+          "end": 25.2
+        },
+        {
+          "id": "E02.B008",
+          "episode": 2,
+          "scene": 2,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Caught Off Guard",
+          "text": "\"She always left the last sip. Said it was for the ghost.\"",
+          "start": 25.2,
+          "end": 29.3
+        },
+        {
+          "id": "E02.B009",
+          "episode": 2,
+          "scene": 2,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Soft",
+          "text": "\"I used to drink it after she left. I wanted her to think somebody believed her.\"",
+          "start": 29.3,
+          "end": 35.0
+        },
+        {
+          "id": "E02.B010",
+          "episode": 2,
+          "scene": 2,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora lets out a laugh that stops halfway. Caleb steadies her with a hand at her waist, then lets go.",
+          "start": 35.0,
+          "end": 39.0
+        },
+        {
+          "id": "E02.B011",
+          "episode": 2,
+          "scene": 2,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Wary",
+          "text": "\"Why did my mother give you a key she never gave me?\"",
+          "start": 39.0,
+          "end": 42.5
+        },
+        {
+          "id": "E02.B012",
+          "episode": 2,
+          "scene": 2,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Plain",
+          "text": "\"Because when she told the police the fire was set on purpose, they laughed.\"",
+          "start": 42.5,
+          "end": 47.4
+        },
+        {
+          "id": "E02.B013",
+          "episode": 2,
+          "scene": 2,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "He opens a metal reel tin marked TRAILERS. Inside are an audio recorder and a memory card.",
+          "start": 47.4,
+          "end": 51.7
+        },
+        {
+          "id": "E02.B014",
+          "episode": 2,
+          "scene": 2,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Quiet",
+          "text": "\"All this time I thought you walked out because I wouldn't stop defending her.\"",
+          "start": 51.7,
+          "end": 56.8
+        },
+        {
+          "id": "E02.B015",
+          "episode": 2,
+          "scene": 2,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Shaken",
+          "text": "\"Play it. But please let it run all the way through.\"",
+          "start": 56.8,
+          "end": 60.7
+        },
+        {
+          "id": "E02.B016",
+          "episode": 2,
+          "scene": 2,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora presses play and keeps her eyes on Caleb. He slides the memory card toward her too.",
+          "start": 60.7,
+          "end": 64.5
+        },
+        {
+          "id": "E02.B017",
+          "episode": 2,
+          "scene": 2,
+          "kind": "sfx",
+          "speaker": null,
+          "delivery": null,
+          "text": "On the recorder, a fan rattles. Someone coughs close to the microphone.",
+          "start": 64.5,
+          "end": 68.3
+        },
+        {
+          "id": "E02.B018",
+          "episode": 2,
+          "scene": 2,
+          "kind": "dialogue",
+          "speaker": "VICTOR",
+          "delivery": "Recorded, Matter-of-fact",
+          "text": "\"I paid Caleb Price to burn the Marlowe. If he wants the rest, tell him I expect a receipt.\"",
+          "start": 68.3,
+          "end": 74.0
+        },
+        {
+          "id": "E02.B019",
+          "episode": 2,
+          "scene": 2,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora takes a step away from Caleb and reaches for the door.",
+          "start": 74.0,
+          "end": 77.0
+        }
+      ],
+      "duration": 77.0,
+      "warnings": []
+    },
+    {
+      "number": 3,
+      "source_file": "episode-003-sample.txt",
+      "source_id": null,
+      "logline": "Caleb admits taking his father's money and asks Nora to watch footage that puts her brother at the cinema that night.",
+      "continuity_notes": "A recording in Booth 2 accuses Caleb of taking money to burn the Marlowe. Nora has just reached for the door.",
+      "scenes": [
+        {
+          "number": 1,
+          "heading": "INT. MARLOWE CINEMA PROJECTION BOOTH – NIGHT",
+          "start": 0.0,
+          "end": 82.0
+        }
+      ],
+      "beats": [
+        {
+          "id": "E03.B001",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Urgent",
+          "text": "\"I took the money. I didn't light the match.\"",
+          "start": 0.0,
+          "end": 2.7
+        },
+        {
+          "id": "E03.B002",
+          "episode": 3,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora keeps the door ajar. Caleb backs away from it and puts both hands on the table.",
+          "start": 2.7,
+          "end": 6.8
+        },
+        {
+          "id": "E03.B003",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Flat",
+          "text": "\"Who was talking on that tape? Because he said your full name like he'd used it before.\"",
+          "start": 6.8,
+          "end": 11.9
+        },
+        {
+          "id": "E03.B004",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Ashamed",
+          "text": "\"It was my father.\"",
+          "start": 11.9,
+          "end": 14.3
+        },
+        {
+          "id": "E03.B005",
+          "episode": 3,
+          "scene": 1,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora looks down at an engraved Price family watch around Caleb's wrist. He takes it off.",
+          "start": 14.3,
+          "end": 17.4
+        },
+        {
+          "id": "E03.B006",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Measured",
+          "text": "\"I took his cash straight to your mom. She told me to play along long enough to get him on tape.\"",
+          "start": 17.4,
+          "end": 23.2
+        },
+        {
+          "id": "E03.B007",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Hurt",
+          "text": "\"You let me believe my mom died because she was too cheap to replace the wiring.\"",
+          "start": 23.2,
+          "end": 29.0
+        },
+        {
+          "id": "E03.B008",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Quiet",
+          "text": "\"My father said he'd make you next. I packed a bag and called it protecting you.\"",
+          "start": 29.0,
+          "end": 34.2
+        },
+        {
+          "id": "E03.B009",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Quiet",
+          "text": "\"You don't get to decide what I can survive. You can sit next to me while I find out.\"",
+          "start": 34.2,
+          "end": 39.7
+        },
+        {
+          "id": "E03.B010",
+          "episode": 3,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "She slides the memory card into a laptop and angles the screen so they can both see.",
+          "start": 39.7,
+          "end": 43.0
+        },
+        {
+          "id": "E03.B011",
+          "episode": 3,
+          "scene": 1,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "Grainy footage shows the theater's rear exit just before midnight. A man in a suit steps out of a black pickup.",
+          "start": 43.0,
+          "end": 47.3
+        },
+        {
+          "id": "E03.B012",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Certain",
+          "text": "\"That's my dad. Look. He's got a gas can.\"",
+          "start": 47.3,
+          "end": 50.4
+        },
+        {
+          "id": "E03.B013",
+          "episode": 3,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora scrubs back and freezes on the front plate, then photographs it with her phone.",
+          "start": 50.4,
+          "end": 55.8
+        },
+        {
+          "id": "E03.B014",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Resolute",
+          "text": "\"If I send this, your father is going to know it came from you.\"",
+          "start": 55.8,
+          "end": 60.1
+        },
+        {
+          "id": "E03.B015",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Steady",
+          "text": "\"Put my name on it.\"",
+          "start": 60.1,
+          "end": 63.4
+        },
+        {
+          "id": "E03.B016",
+          "episode": 3,
+          "scene": 1,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "The footage resumes. A second figure steps into the headlights and hands Victor a key.",
+          "start": 63.4,
+          "end": 69.2
+        },
+        {
+          "id": "E03.B017",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Disbelieving",
+          "text": "\"That's Miles. That's my brother letting him in.\"",
+          "start": 69.2,
+          "end": 73.8
+        },
+        {
+          "id": "E03.B018",
+          "episode": 3,
+          "scene": 1,
+          "kind": "sfx",
+          "speaker": null,
+          "delivery": null,
+          "text": "The real booth door scrapes along the floor behind them.",
+          "start": 73.8,
+          "end": 76.1
+        },
+        {
+          "id": "E03.B019",
+          "episode": 3,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "MILES",
+          "delivery": "From the Doorway",
+          "text": "\"Before you send that, ask him which one of us called the fire department.\"",
+          "start": 76.1,
+          "end": 82.0
+        }
+      ],
+      "duration": 82.0,
+      "warnings": []
+    },
+    {
+      "number": 4,
+      "source_file": "episode-004-sample.txt",
+      "source_id": null,
+      "logline": "Miles confesses his part in the fire, then Nora receives a call that challenges everything she knows about her mother's death.",
+      "continuity_notes": "Nora saw footage of her brother Miles letting Caleb's father into the Marlowe with a gas can. Miles appeared in the booth and told her to ask who called the fire department.",
+      "scenes": [
+        {
+          "number": 1,
+          "heading": "INT. MARLOWE CINEMA PROJECTION BOOTH – NIGHT",
+          "start": 0.0,
+          "end": 84.0
+        }
+      ],
+      "beats": [
+        {
+          "id": "E04.B001",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Direct",
+          "text": "\"You called. Then you ran.\"",
+          "start": 0.0,
+          "end": 2.4
+        },
+        {
+          "id": "E04.B002",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "MILES",
+          "delivery": "Frantic",
+          "text": "\"I let him in to take the inspection records, Nora. Nobody said there was going to be a fire.\"",
+          "start": 2.4,
+          "end": 7.8
+        },
+        {
+          "id": "E04.B003",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Scalding",
+          "text": "\"He carried a gas can right past you. You handed him the key.\"",
+          "start": 7.8,
+          "end": 12.4
+        },
+        {
+          "id": "E04.B004",
+          "episode": 4,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Miles raises his burned left hand, then lowers it. Nora sees it and looks back at the laptop.",
+          "start": 12.4,
+          "end": 15.5
+        },
+        {
+          "id": "E04.B005",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "MILES",
+          "delivery": "Barely Audible",
+          "text": "\"I told dispatch Mom was inside. Victor grabbed the phone and said there wasn't anybody in the building.\"",
+          "start": 15.5,
+          "end": 21.7
+        },
+        {
+          "id": "E04.B006",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Searching",
+          "text": "\"There was a closed casket. They told me there was no point in looking.\"",
+          "start": 21.7,
+          "end": 26.8
+        },
+        {
+          "id": "E04.B007",
+          "episode": 4,
+          "scene": 1,
+          "kind": "sfx",
+          "speaker": null,
+          "delivery": null,
+          "text": "Caleb's phone begins to vibrate on the table.",
+          "start": 26.8,
+          "end": 30.0
+        },
+        {
+          "id": "E04.B008",
+          "episode": 4,
+          "scene": 1,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "The screen lights up with one word: DAD.",
+          "start": 30.0,
+          "end": 33.4
+        },
+        {
+          "id": "E04.B009",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Decisive",
+          "text": "\"That's the first time he's called since I bought your loan.\"",
+          "start": 33.4,
+          "end": 37.9
+        },
+        {
+          "id": "E04.B010",
+          "episode": 4,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Caleb turns the phone toward Nora and waits for her to reach for it.",
+          "start": 37.9,
+          "end": 41.2
+        },
+        {
+          "id": "E04.B011",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Nervous",
+          "text": "\"Last time I heard his voice, he was asking if I wanted roses for the funeral.\"",
+          "start": 41.2,
+          "end": 46.2
+        },
+        {
+          "id": "E04.B012",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "CALEB",
+          "delivery": "Soft",
+          "text": "\"Take my hand if you want to. I'll stay either way.\"",
+          "start": 46.2,
+          "end": 50.4
+        },
+        {
+          "id": "E04.B013",
+          "episode": 4,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "She grips his hand, backs up the footage to her email and accepts the call on speaker.",
+          "start": 50.4,
+          "end": 54.3
+        },
+        {
+          "id": "E04.B014",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "VICTOR",
+          "delivery": "On Speaker, Calm",
+          "text": "\"Nora, there's a car outside. Bring me the memory card and I'll take you to your mother.\"",
+          "start": 54.3,
+          "end": 60.2
+        },
+        {
+          "id": "E04.B015",
+          "episode": 4,
+          "scene": 1,
+          "kind": "camera",
+          "speaker": null,
+          "delivery": null,
+          "text": "Through the booth window, headlights sweep the cinema entrance. A black pickup idles at the curb.",
+          "start": 60.2,
+          "end": 64.9
+        },
+        {
+          "id": "E04.B016",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "NORA",
+          "delivery": "Unsteady",
+          "text": "\"I buried my mother. You stood next to me while I did it.\"",
+          "start": 64.9,
+          "end": 69.0
+        },
+        {
+          "id": "E04.B017",
+          "episode": 4,
+          "scene": 1,
+          "kind": "sfx",
+          "speaker": null,
+          "delivery": null,
+          "text": "The pickup's passenger window lowers. There is a rustle close to Victor's microphone.",
+          "start": 69.0,
+          "end": 73.9
+        },
+        {
+          "id": "E04.B018",
+          "episode": 4,
+          "scene": 1,
+          "kind": "dialogue",
+          "speaker": "ROSA",
+          "delivery": "On Speaker, Strained",
+          "text": "\"Nora, honey. Leave the card where it is. And don't let Caleb look out that window.\"",
+          "start": 73.9,
+          "end": 80.3
+        },
+        {
+          "id": "E04.B019",
+          "episode": 4,
+          "scene": 1,
+          "kind": "action",
+          "speaker": null,
+          "delivery": null,
+          "text": "Nora lunges for Caleb as he reaches for the blind.",
+          "start": 80.3,
+          "end": 84.0
+        }
+      ],
+      "duration": 84.0,
+      "warnings": []
+    }
+  ],
+  "analyses": [
+    {
+      "episode": 1,
+      "summary": "Nora Reyes confronts her ex-fiancé at the sale of her late mother's neighborhood movie theater.",
+      "characters": [],
+      "beats": [
+        {
+          "beat_id": "E01.B001",
+          "hook": 5,
+          "hook_type": "reveal",
+          "cliff": 2,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The ex has bought a stake in her future."
+        },
+        {
+          "beat_id": "E01.B005",
+          "hook": 4,
+          "hook_type": "mystery",
+          "cliff": 3,
+          "open_question": "What started the fire?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Nora says the true cause of her mother's death is still hidden."
+        },
+        {
+          "beat_id": "E01.B007",
+          "hook": 4,
+          "hook_type": "humiliation",
+          "cliff": 2,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The abandoned wedding makes the cost of trusting him personal."
+        },
+        {
+          "beat_id": "E01.B010",
+          "hook": 3,
+          "hook_type": "threat",
+          "cliff": 4,
+          "open_question": "Will Nora sign to get free of Caleb?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The developer offers a way out with a price."
+        },
+        {
+          "beat_id": "E01.B012",
+          "hook": 3,
+          "hook_type": "shocking_line",
+          "cliff": 3,
+          "open_question": "Why didn't he come to her directly?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Nora calls out the takeover."
+        },
+        {
+          "beat_id": "E01.B015",
+          "hook": 3,
+          "hook_type": "threat",
+          "cliff": 3,
+          "open_question": "Can Caleb change her mind?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Nora commits to signing."
+        },
+        {
+          "beat_id": "E01.B019",
+          "hook": 4,
+          "hook_type": "mystery",
+          "cliff": 5,
+          "open_question": "Why is Sloan targeting Booth 2?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The demolition order suddenly looks like a cover-up."
+        }
+      ],
+      "opening_hook": {
+        "beat_id": "E01.B001",
+        "score": 5,
+        "note": "Nora's ex bought the loan on the theater she is trying to save."
+      },
+      "ending_cliffhanger": {
+        "beat_id": "E01.B019",
+        "score": 5,
+        "note": "Caleb asks why the buyer wants Booth 2 demolished first."
+      },
+      "ending_open_question": "Why is Sloan targeting Booth 2?",
+      "pickup": {
+        "status": "not_applicable",
+        "first_new_beat_id": null,
+        "delay_s": null,
+        "note": "First episode."
+      },
+      "model": "hand-authored",
+      "prompt_version": "sample-v1"
+    },
+    {
+      "episode": 2,
+      "summary": "Nora delays the sale and follows Caleb upstairs, where an old recording implicates him in the fire.",
+      "characters": [],
+      "beats": [
+        {
+          "beat_id": "E02.B001",
+          "hook": 4,
+          "hook_type": "threat",
+          "cliff": 1,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Nora walks away from a sale with a deadline."
+        },
+        {
+          "beat_id": "E02.B007",
+          "hook": 3,
+          "hook_type": "mystery",
+          "cliff": 1,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The lipstick-marked cup gives the empty room a presence."
+        },
+        {
+          "beat_id": "E02.B011",
+          "hook": 4,
+          "hook_type": "mystery",
+          "cliff": 3,
+          "open_question": "Why did Rosa trust Caleb?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The key exposes a secret between Caleb and Nora's mom."
+        },
+        {
+          "beat_id": "E02.B013",
+          "hook": 3,
+          "hook_type": "mystery",
+          "cliff": 3,
+          "open_question": "What did Rosa hide on the recorder?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The evidence is tangible."
+        },
+        {
+          "beat_id": "E02.B015",
+          "hook": 3,
+          "hook_type": "mystery",
+          "cliff": 3,
+          "open_question": "What is Caleb afraid she'll hear?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Caleb begs her to hear the entire recording."
+        },
+        {
+          "beat_id": "E02.B018",
+          "hook": 5,
+          "hook_type": "reveal",
+          "cliff": 5,
+          "open_question": "Did Caleb set the fire?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The recording accuses the man standing beside Nora."
+        },
+        {
+          "beat_id": "E02.B019",
+          "hook": 1,
+          "hook_type": null,
+          "cliff": 4,
+          "open_question": "Will Nora hear Caleb out?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Nora recoils without giving him time to explain."
+        }
+      ],
+      "opening_hook": {
+        "beat_id": "E02.B001",
+        "score": 4,
+        "note": "Nora puts the sale at risk to follow the evidence."
+      },
+      "ending_cliffhanger": {
+        "beat_id": "E02.B018",
+        "score": 5,
+        "note": "The recording implicates Caleb and Nora takes a step back."
+      },
+      "ending_open_question": "Did Caleb set the fire?",
+      "pickup": {
+        "status": "immediate",
+        "first_new_beat_id": "E02.B001",
+        "delay_s": 0.0,
+        "note": "Nora refuses to sign and asks to go straight to Booth 2."
+      },
+      "model": "hand-authored",
+      "prompt_version": "sample-v1"
+    },
+    {
+      "episode": 3,
+      "summary": "Caleb admits taking his father's money and asks Nora to watch footage that puts her brother at the cinema that night.",
+      "characters": [],
+      "beats": [
+        {
+          "beat_id": "E03.B001",
+          "hook": 5,
+          "hook_type": "reveal",
+          "cliff": 3,
+          "open_question": "Who started the fire?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Caleb admits taking the money straight away."
+        },
+        {
+          "beat_id": "E03.B004",
+          "hook": 4,
+          "hook_type": "reveal",
+          "cliff": 4,
+          "open_question": "Why was his father paying him?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The voice on the tape is his father."
+        },
+        {
+          "beat_id": "E03.B007",
+          "hook": 3,
+          "hook_type": "shocking_line",
+          "cliff": 3,
+          "open_question": "Why did Caleb keep quiet?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Nora names the lie she grew up believing."
+        },
+        {
+          "beat_id": "E03.B008",
+          "hook": 4,
+          "hook_type": "threat",
+          "cliff": 4,
+          "open_question": "Will Caleb risk challenging his father now?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Caleb says his father threatened Nora."
+        },
+        {
+          "beat_id": "E03.B011",
+          "hook": 3,
+          "hook_type": "mystery",
+          "cliff": 2,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The security footage shows a late-night arrival."
+        },
+        {
+          "beat_id": "E03.B012",
+          "hook": 4,
+          "hook_type": "reveal",
+          "cliff": 3,
+          "open_question": "Who let Victor into the cinema?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The gas can makes the accusation concrete."
+        },
+        {
+          "beat_id": "E03.B013",
+          "hook": 3,
+          "hook_type": "mystery",
+          "cliff": 1,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Nora records the plate on her phone."
+        },
+        {
+          "beat_id": "E03.B017",
+          "hook": 4,
+          "hook_type": "reveal",
+          "cliff": 5,
+          "open_question": "Why did Miles let Victor in?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "The footage implicates Nora's brother."
+        },
+        {
+          "beat_id": "E03.B019",
+          "hook": 4,
+          "hook_type": "shocking_line",
+          "cliff": 5,
+          "open_question": "Who called for help, and what did they know?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Miles appears and challenges the footage."
+        }
+      ],
+      "opening_hook": {
+        "beat_id": "E03.B001",
+        "score": 5,
+        "note": "Caleb admits taking the money while Nora is still at the door."
+      },
+      "ending_cliffhanger": {
+        "beat_id": "E03.B019",
+        "score": 5,
+        "note": "Miles appears in the doorway and challenges their conclusion."
+      },
+      "ending_open_question": "Who called for help, and what did they know?",
+      "pickup": {
+        "status": "immediate",
+        "first_new_beat_id": "E03.B001",
+        "delay_s": 0.0,
+        "note": "Caleb answers the accusation with Nora still reaching for the door."
+      },
+      "model": "hand-authored",
+      "prompt_version": "sample-v1"
+    },
+    {
+      "episode": 4,
+      "summary": "Miles confesses his part in the fire, then Nora receives a call that challenges everything she knows about her mother's death.",
+      "characters": [],
+      "beats": [
+        {
+          "beat_id": "E04.B001",
+          "hook": 3,
+          "hook_type": "shocking_line",
+          "cliff": 1,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Caleb answers the accusation immediately."
+        },
+        {
+          "beat_id": "E04.B005",
+          "hook": 4,
+          "hook_type": "reveal",
+          "cliff": 4,
+          "open_question": "Was Rosa really in the building?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Victor lied to the emergency dispatcher."
+        },
+        {
+          "beat_id": "E04.B008",
+          "hook": 3,
+          "hook_type": "mystery",
+          "cliff": 2,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "Caleb's father is calling as they uncover the fire."
+        },
+        {
+          "beat_id": "E04.B011",
+          "hook": 4,
+          "hook_type": "shocking_line",
+          "cliff": 2,
+          "open_question": null,
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 0,
+          "reason": "A funeral memory makes the call feel threatening."
+        },
+        {
+          "beat_id": "E04.B014",
+          "hook": 5,
+          "hook_type": "reveal",
+          "cliff": 5,
+          "open_question": "Is Victor telling the truth?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 3,
+          "reason": "Victor offers proof Nora's mother is alive."
+        },
+        {
+          "beat_id": "E04.B018",
+          "hook": 5,
+          "hook_type": "threat",
+          "cliff": 5,
+          "open_question": "What will happen if Caleb looks outside?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 3,
+          "reason": "Rosa's voice confirms the impossible and gives a warning."
+        },
+        {
+          "beat_id": "E04.B019",
+          "hook": 2,
+          "hook_type": null,
+          "cliff": 5,
+          "open_question": "Can Nora stop Caleb in time?",
+          "resolved_by": null,
+          "needs_context": [],
+          "spoiler": 3,
+          "reason": "Caleb reaches for the blind anyway."
+        }
+      ],
+      "opening_hook": {
+        "beat_id": "E04.B001",
+        "score": 3,
+        "note": "Caleb answers Miles before anyone can leave the booth."
+      },
+      "ending_cliffhanger": {
+        "beat_id": "E04.B019",
+        "score": 5,
+        "note": "Nora lunges as Caleb reaches for the blind."
+      },
+      "ending_open_question": "Can Nora stop Caleb in time?",
+      "pickup": {
+        "status": "immediate",
+        "first_new_beat_id": "E04.B001",
+        "delay_s": 0.0,
+        "note": "Caleb names Miles as the caller at once."
+      },
+      "model": "hand-authored",
+      "prompt_version": "sample-v1"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C0001",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 1,
+          "start": 0.0,
+          "end": 42.0,
+          "first_beat_id": "E01.B001",
+          "last_beat_id": "E01.B010"
+        }
+      ],
+      "duration": 42.0,
+      "hook_beat_id": "E01.B001",
+      "cliff_beat_id": "E01.B010",
+      "hook_score": 5.0,
+      "cliff_score": 4.0,
+      "hook_type": "reveal",
+      "open_question": "Will Nora sign to get free of Caleb?",
+      "spoiler": 0,
+      "needs_context": [],
+      "prelim_score": 4.7,
+      "notes": []
+    },
+    {
+      "id": "C0002",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 1,
+          "start": 24.3,
+          "end": 80.0,
+          "first_beat_id": "E01.B007",
+          "last_beat_id": "E01.B019"
+        }
+      ],
+      "duration": 55.7,
+      "hook_beat_id": "E01.B007",
+      "cliff_beat_id": "E01.B019",
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "hook_type": "humiliation",
+      "open_question": "Why is Sloan targeting Booth 2?",
+      "spoiler": 0,
+      "needs_context": [
+        "Which earlier deal put Nora in this position?"
+      ],
+      "prelim_score": 3.9,
+      "notes": []
+    },
+    {
+      "id": "C0003",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 2,
+          "start": 39.0,
+          "end": 74.0,
+          "first_beat_id": "E02.B011",
+          "last_beat_id": "E02.B018"
+        }
+      ],
+      "duration": 35.0,
+      "hook_beat_id": "E02.B011",
+      "cliff_beat_id": "E02.B018",
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "hook_type": "mystery",
+      "open_question": "Did Caleb set the fire?",
+      "spoiler": 0,
+      "needs_context": [],
+      "prelim_score": 4.6,
+      "notes": []
+    },
+    {
+      "id": "C0004",
+      "kind": "multi",
+      "segments": [
+        {
+          "episode": 2,
+          "start": 56.8,
+          "end": 77.0,
+          "first_beat_id": "E02.B015",
+          "last_beat_id": "E02.B019"
+        },
+        {
+          "episode": 3,
+          "start": 0.0,
+          "end": 34.2,
+          "first_beat_id": "E03.B001",
+          "last_beat_id": "E03.B008"
+        }
+      ],
+      "duration": 54.4,
+      "hook_beat_id": "E02.B015",
+      "cliff_beat_id": "E03.B008",
+      "hook_score": 3.0,
+      "cliff_score": 4.0,
+      "hook_type": "mystery",
+      "open_question": "Will Caleb risk challenging his father now?",
+      "spoiler": 0,
+      "needs_context": [],
+      "prelim_score": 4.0,
+      "notes": []
+    },
+    {
+      "id": "C0005",
+      "kind": "multi",
+      "segments": [
+        {
+          "episode": 2,
+          "start": 39.0,
+          "end": 51.7,
+          "first_beat_id": "E02.B011",
+          "last_beat_id": "E02.B013"
+        },
+        {
+          "episode": 3,
+          "start": 0.0,
+          "end": 14.3,
+          "first_beat_id": "E03.B001",
+          "last_beat_id": "E03.B004"
+        }
+      ],
+      "duration": 27.0,
+      "hook_beat_id": "E02.B011",
+      "cliff_beat_id": "E03.B004",
+      "hook_score": 4.0,
+      "cliff_score": 4.0,
+      "hook_type": "mystery",
+      "open_question": "Why was his father paying him?",
+      "spoiler": 0,
+      "needs_context": [
+        "What did the skipped recording say?"
+      ],
+      "prelim_score": 3.4,
+      "notes": []
+    },
+    {
+      "id": "C0006",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 3,
+          "start": 47.3,
+          "end": 82.0,
+          "first_beat_id": "E03.B012",
+          "last_beat_id": "E03.B019"
+        }
+      ],
+      "duration": 34.7,
+      "hook_beat_id": "E03.B012",
+      "cliff_beat_id": "E03.B019",
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "hook_type": "reveal",
+      "open_question": "Who called for help, and what did they know?",
+      "spoiler": 0,
+      "needs_context": [],
+      "prelim_score": 4.4,
+      "notes": []
+    },
+    {
+      "id": "C0007",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 4,
+          "start": 41.2,
+          "end": 84.0,
+          "first_beat_id": "E04.B011",
+          "last_beat_id": "E04.B019"
+        }
+      ],
+      "duration": 42.8,
+      "hook_beat_id": "E04.B011",
+      "cliff_beat_id": "E04.B019",
+      "hook_score": 4.0,
+      "cliff_score": 5.0,
+      "hook_type": "shocking_line",
+      "open_question": "Can Nora stop Caleb in time?",
+      "spoiler": 3,
+      "needs_context": [],
+      "prelim_score": 4.8,
+      "notes": []
+    },
+    {
+      "id": "C0008",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 3,
+          "start": 50.4,
+          "end": 82.0,
+          "first_beat_id": "E03.B013",
+          "last_beat_id": "E03.B019"
+        }
+      ],
+      "duration": 31.6,
+      "hook_beat_id": "E03.B013",
+      "cliff_beat_id": "E03.B019",
+      "hook_score": 3.0,
+      "cliff_score": 5.0,
+      "hook_type": "mystery",
+      "open_question": "Who called for help, and what did they know?",
+      "spoiler": 0,
+      "needs_context": [
+        "Who is already on the footage?"
+      ],
+      "prelim_score": 3.1,
+      "notes": []
+    }
+  ],
+  "verdicts": [
+    {
+      "candidate_id": "C0001",
+      "premise": "Nora's ex-fiancé bought the loan on the theater she plans to sell.",
+      "conflict": "She has to choose between his help and the buyer's clean exit.",
+      "open_question": "Will Nora sign to get free of Caleb?",
+      "confusions": [],
+      "hook_lands": true,
+      "standalone": 5,
+      "keep_watching": 4,
+      "verdict": "pass",
+      "model": "hand-authored"
+    },
+    {
+      "candidate_id": "C0002",
+      "premise": "A woman is arguing with an ex while a buyer waits nearby.",
+      "conflict": "The couple disagrees over signing away a cinema.",
+      "open_question": "Why is Sloan targeting Booth 2?",
+      "confusions": [
+        "The mortgage surprise happens before the clip."
+      ],
+      "hook_lands": true,
+      "standalone": 3,
+      "keep_watching": 4,
+      "verdict": "borderline",
+      "model": "hand-authored"
+    },
+    {
+      "candidate_id": "C0003",
+      "premise": "Nora and Caleb are listening to evidence her mother hid about a fire.",
+      "conflict": "The evidence Caleb brought up the stairs implicates him.",
+      "open_question": "Did Caleb set the fire?",
+      "confusions": [],
+      "hook_lands": true,
+      "standalone": 4,
+      "keep_watching": 5,
+      "verdict": "pass",
+      "model": "hand-authored"
+    },
+    {
+      "candidate_id": "C0004",
+      "premise": "A recording accuses Caleb of arson and he admits taking the money.",
+      "conflict": "Nora wants to know why Caleb hid his father's threat.",
+      "open_question": "Will Caleb risk challenging his father now?",
+      "confusions": [
+        "Their former engagement takes time to infer."
+      ],
+      "hook_lands": true,
+      "standalone": 4,
+      "keep_watching": 4,
+      "verdict": "pass",
+      "model": "hand-authored"
+    },
+    {
+      "candidate_id": "C0005",
+      "premise": "Nora confronts Caleb about an unspecified payment.",
+      "conflict": "The cut skips the accusation he is answering.",
+      "open_question": "Why was his father paying him?",
+      "confusions": [
+        "What did the recording say?",
+        "What was the money for?"
+      ],
+      "hook_lands": false,
+      "standalone": 1,
+      "keep_watching": 2,
+      "verdict": "fail",
+      "model": "hand-authored"
+    },
+    {
+      "candidate_id": "C0006",
+      "premise": "Two people watch footage that links both their families to a fire.",
+      "conflict": "Nora can send the footage, but her brother appears and challenges her.",
+      "open_question": "Who called for help, and what did they know?",
+      "confusions": [],
+      "hook_lands": true,
+      "standalone": 4,
+      "keep_watching": 5,
+      "verdict": "pass",
+      "model": "hand-authored"
+    },
+    {
+      "candidate_id": "C0007",
+      "premise": "A woman who buried her mother gets a live call from her.",
+      "conflict": "She has seconds to stop Caleb from looking out the window.",
+      "open_question": "Can Nora stop Caleb in time?",
+      "confusions": [],
+      "hook_lands": true,
+      "standalone": 4,
+      "keep_watching": 5,
+      "verdict": "pass",
+      "model": "hand-authored"
+    }
+  ],
+  "promos": [
+    {
+      "rank": 1,
+      "candidate_id": "C0001",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 1,
+          "start": 0.0,
+          "end": 42.0,
+          "first_beat_id": "E01.B001",
+          "last_beat_id": "E01.B010"
+        }
+      ],
+      "duration": 42.0,
+      "hook_time": "E01 00:00.00",
+      "hook_text": "\"My ex-fiancé bought my mortgage?\"",
+      "cliffhanger_time": "E01 00:37.80",
+      "cliffhanger_text": "\"He can make you stay in debt. I can get you out tonight.\"",
+      "open_question": "Will Nora sign to get free of Caleb?",
+      "why_it_works": "Her ex buying the mortgage makes the breakup and the sale collide in the opening line.",
+      "post_wave": 1,
+      "flags": [],
+      "scores": {
+        "hook": 5.0,
+        "cliff": 4.0
+      },
+      "cold_viewer": {
+        "candidate_id": "C0001",
+        "premise": "Nora's ex-fiancé bought the loan on the theater she plans to sell.",
+        "conflict": "She has to choose between his help and the buyer's clean exit.",
+        "open_question": "Will Nora sign to get free of Caleb?",
+        "confusions": [],
+        "hook_lands": true,
+        "standalone": 5,
+        "keep_watching": 4,
+        "verdict": "pass",
+        "model": "hand-authored"
+      },
+      "variants": [
+        {
+          "label": "Open on the fire",
+          "segments": [
+            {
+              "episode": 1,
+              "start": 15.0,
+              "end": 42.0,
+              "first_beat_id": "E01.B005",
+              "last_beat_id": "E01.B010"
+            }
+          ],
+          "duration": 27.0,
+          "hook_beat_id": "E01.B005",
+          "note": "Start with Nora naming the mystery around her mother's death."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "candidate_id": "C0003",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 2,
+          "start": 39.0,
+          "end": 74.0,
+          "first_beat_id": "E02.B011",
+          "last_beat_id": "E02.B018"
+        }
+      ],
+      "duration": 35.0,
+      "hook_time": "E02 00:39.00",
+      "hook_text": "\"Why did my mother give you a key she never gave me?\"",
+      "cliffhanger_time": "E02 01:08.30",
+      "cliffhanger_text": "\"I paid Caleb Price to burn the Marlowe. If he wants the rest, tell him I expect a receipt.\"",
+      "open_question": "Did Caleb set the fire?",
+      "why_it_works": "The question about the key turns into a direct accusation against the man who brought it.",
+      "post_wave": 1,
+      "flags": [],
+      "scores": {
+        "hook": 4.0,
+        "cliff": 5.0
+      },
+      "cold_viewer": {
+        "candidate_id": "C0003",
+        "premise": "Nora and Caleb are listening to evidence her mother hid about a fire.",
+        "conflict": "The evidence Caleb brought up the stairs implicates him.",
+        "open_question": "Did Caleb set the fire?",
+        "confusions": [],
+        "hook_lands": true,
+        "standalone": 4,
+        "keep_watching": 5,
+        "verdict": "pass",
+        "model": "hand-authored"
+      },
+      "variants": [
+        {
+          "label": "Open on the recorder",
+          "segments": [
+            {
+              "episode": 2,
+              "start": 47.4,
+              "end": 74.0,
+              "first_beat_id": "E02.B013",
+              "last_beat_id": "E02.B018"
+            }
+          ],
+          "duration": 26.6,
+          "hook_beat_id": "E02.B013",
+          "note": "Start on the discovery in the reel tin."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "candidate_id": "C0006",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 3,
+          "start": 47.3,
+          "end": 82.0,
+          "first_beat_id": "E03.B012",
+          "last_beat_id": "E03.B019"
+        }
+      ],
+      "duration": 34.7,
+      "hook_time": "E03 00:47.30",
+      "hook_text": "\"That's my dad. Look. He's got a gas can.\"",
+      "cliffhanger_time": "E03 01:16.10",
+      "cliffhanger_text": "\"Before you send that, ask him which one of us called the fire department.\"",
+      "open_question": "Who called for help, and what did they know?",
+      "why_it_works": "A gas can starts the search for a culprit. The man on the footage walks into the room.",
+      "post_wave": 2,
+      "flags": [],
+      "scores": {
+        "hook": 4.0,
+        "cliff": 5.0
+      },
+      "cold_viewer": {
+        "candidate_id": "C0006",
+        "premise": "Two people watch footage that links both their families to a fire.",
+        "conflict": "Nora can send the footage, but her brother appears and challenges her.",
+        "open_question": "Who called for help, and what did they know?",
+        "confusions": [],
+        "hook_lands": true,
+        "standalone": 4,
+        "keep_watching": 5,
+        "verdict": "pass",
+        "model": "hand-authored"
+      },
+      "variants": [
+        {
+          "label": "Open on the security footage",
+          "segments": [
+            {
+              "episode": 3,
+              "start": 43.0,
+              "end": 82.0,
+              "first_beat_id": "E03.B011",
+              "last_beat_id": "E03.B019"
+            }
+          ],
+          "duration": 39.0,
+          "hook_beat_id": "E03.B011",
+          "note": "Let the black pickup arrive before Caleb names his father."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "candidate_id": "C0004",
+      "kind": "multi",
+      "segments": [
+        {
+          "episode": 2,
+          "start": 56.8,
+          "end": 77.0,
+          "first_beat_id": "E02.B015",
+          "last_beat_id": "E02.B019"
+        },
+        {
+          "episode": 3,
+          "start": 0.0,
+          "end": 34.2,
+          "first_beat_id": "E03.B001",
+          "last_beat_id": "E03.B008"
+        }
+      ],
+      "duration": 54.4,
+      "hook_time": "E02 00:56.80",
+      "hook_text": "\"Play it. But please let it run all the way through.\"",
+      "cliffhanger_time": "E03 00:29.00",
+      "cliffhanger_text": "\"My father said he'd make you next. I packed a bag and called it protecting you.\"",
+      "open_question": "Will Caleb risk challenging his father now?",
+      "why_it_works": "Caleb's immediate admission carries the accusation across the episode break.",
+      "post_wave": 2,
+      "flags": [
+        "Cross-episode cut"
+      ],
+      "scores": {
+        "hook": 3.0,
+        "cliff": 4.0
+      },
+      "cold_viewer": {
+        "candidate_id": "C0004",
+        "premise": "A recording accuses Caleb of arson and he admits taking the money.",
+        "conflict": "Nora wants to know why Caleb hid his father's threat.",
+        "open_question": "Will Caleb risk challenging his father now?",
+        "confusions": [
+          "Their former engagement takes time to infer."
+        ],
+        "hook_lands": true,
+        "standalone": 4,
+        "keep_watching": 4,
+        "verdict": "pass",
+        "model": "hand-authored"
+      },
+      "variants": [
+        {
+          "label": "Open on the accusation",
+          "segments": [
+            {
+              "episode": 2,
+              "start": 68.3,
+              "end": 77.0,
+              "first_beat_id": "E02.B018",
+              "last_beat_id": "E02.B019"
+            },
+            {
+              "episode": 3,
+              "start": 0.0,
+              "end": 34.2,
+              "first_beat_id": "E03.B001",
+              "last_beat_id": "E03.B008"
+            }
+          ],
+          "duration": 42.9,
+          "hook_beat_id": "E02.B018",
+          "note": "Skip the recorder setup and start on Victor's voice."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "candidate_id": "C0007",
+      "kind": "single",
+      "segments": [
+        {
+          "episode": 4,
+          "start": 41.2,
+          "end": 84.0,
+          "first_beat_id": "E04.B011",
+          "last_beat_id": "E04.B019"
+        }
+      ],
+      "duration": 42.8,
+      "hook_time": "E04 00:41.20",
+      "hook_text": "\"Last time I heard his voice, he was asking if I wanted roses for the funeral.\"",
+      "cliffhanger_time": "E04 01:20.30",
+      "cliffhanger_text": "Nora lunges for Caleb as he reaches for the blind.",
+      "open_question": "Can Nora stop Caleb in time?",
+      "why_it_works": "A funeral memory sets up the shock of hearing Rosa alive, followed by a warning Caleb is already ignoring.",
+      "post_wave": 3,
+      "flags": [
+        "Major spoiler"
+      ],
+      "scores": {
+        "hook": 4.0,
+        "cliff": 5.0
+      },
+      "cold_viewer": {
+        "candidate_id": "C0007",
+        "premise": "A woman who buried her mother gets a live call from her.",
+        "conflict": "She has seconds to stop Caleb from looking out the window.",
+        "open_question": "Can Nora stop Caleb in time?",
+        "confusions": [],
+        "hook_lands": true,
+        "standalone": 4,
+        "keep_watching": 5,
+        "verdict": "pass",
+        "model": "hand-authored"
+      },
+      "variants": [
+        {
+          "label": "Open on Victor's offer",
+          "segments": [
+            {
+              "episode": 4,
+              "start": 54.3,
+              "end": 84.0,
+              "first_beat_id": "E04.B014",
+              "last_beat_id": "E04.B019"
+            }
+          ],
+          "duration": 29.7,
+          "hook_beat_id": "E04.B014",
+          "note": "Start on the call and let the headlights confirm the car."
+        }
+      ]
+    }
+  ],
+  "episode_report": [
+    {
+      "episode": 1,
+      "duration_s": 80.0,
+      "opening_hook_score": 5,
+      "opening_hook_time": "00:00.00",
+      "opening_hook_text": "NORA: \"My ex-fiancé bought my mortgage?\"",
+      "ending_cliff_score": 5,
+      "ending_cliff_time": "01:16.30",
+      "ending_cliff_text": "CALEB: \"Then tell her why your crew is starting with the projection booth.\"",
+      "ending_open_question": "Why is Sloan targeting Booth 2?",
+      "pickup_status": "not_applicable",
+      "pickup_delay_s": null,
+      "promo_ready_beats": 7,
+      "flags": []
+    },
+    {
+      "episode": 2,
+      "duration_s": 77.0,
+      "opening_hook_score": 4,
+      "opening_hook_time": "00:00.00",
+      "opening_hook_text": "NORA: \"I'm not signing. Take me to the booth.\"",
+      "ending_cliff_score": 5,
+      "ending_cliff_time": "01:08.30",
+      "ending_cliff_text": "VICTOR: \"I paid Caleb Price to burn the Marlowe. If he wants the rest, tell him I expect a receipt.\"",
+      "ending_open_question": "Did Caleb set the fire?",
+      "pickup_status": "immediate",
+      "pickup_delay_s": 0.0,
+      "promo_ready_beats": 7,
+      "flags": []
+    },
+    {
+      "episode": 3,
+      "duration_s": 82.0,
+      "opening_hook_score": 5,
+      "opening_hook_time": "00:00.00",
+      "opening_hook_text": "CALEB: \"I took the money. I didn't light the match.\"",
+      "ending_cliff_score": 5,
+      "ending_cliff_time": "01:16.10",
+      "ending_cliff_text": "MILES: \"Before you send that, ask him which one of us called the fire department.\"",
+      "ending_open_question": "Who called for help, and what did they know?",
+      "pickup_status": "immediate",
+      "pickup_delay_s": 0.0,
+      "promo_ready_beats": 9,
+      "flags": []
+    },
+    {
+      "episode": 4,
+      "duration_s": 84.0,
+      "opening_hook_score": 3,
+      "opening_hook_time": "00:00.00",
+      "opening_hook_text": "CALEB: \"You called. Then you ran.\"",
+      "ending_cliff_score": 5,
+      "ending_cliff_time": "01:20.30",
+      "ending_cliff_text": "Nora lunges for Caleb as he reaches for the blind.",
+      "ending_open_question": "Can Nora stop Caleb in time?",
+      "pickup_status": "immediate",
+      "pickup_delay_s": 0.0,
+      "promo_ready_beats": 7,
+      "flags": []
+    }
+  ],
+  "run_log": [
+    {
+      "stage": "demo",
+      "item": "note",
+      "message": "Hand-authored run with illustrative usage figures."
+    },
+    {
+      "stage": "analyze",
+      "item": "E01",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "input_tokens": 2050,
+      "output_tokens": 930,
+      "latency_s": 9.2,
+      "cached": false
+    },
+    {
+      "stage": "analyze",
+      "item": "E02",
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "input_tokens": 1900,
+      "output_tokens": 880,
+      "latency_s": 0.01,
+      "cached": true
+    },
+    {
+      "stage": "judge",
+      "item": "C0001",
+      "provider": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "input_tokens": 680,
+      "output_tokens": 156,
+      "latency_s": 0.9,
+      "cached": false
+    },
+    {
+      "stage": "writer",
+      "item": "shortlist",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "input_tokens": 1950,
+      "output_tokens": 320,
+      "latency_s": 1.2,
+      "cached": false
+    }
+  ]
+}
