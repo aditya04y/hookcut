@@ -46,3 +46,13 @@ def test_episode_slice_and_components_on_the_sample_run():
     assert svg.startswith("<svg") and ">In<" in svg and ">Out<" in svg
     assert "In 00:" in page and "Out 00:" in page and "hc-text cliff" in page
     assert len(D.step_summaries(one)) == 5
+
+
+def test_review_only_promo_when_every_cut_fails():
+    r = D.episode_slice(D.sample_result(), 1)
+    for v in r.verdicts:
+        v.verdict = "fail"
+    r.promos = []
+    p = D.review_only_promo(r)
+    assert p is not None and p.flags == ["review only"] and p.cold_viewer is not None
+    assert C.phone_html(p, {e.number: e for e in r.episodes}).startswith('<div class="hc-phone"')

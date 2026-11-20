@@ -80,6 +80,30 @@ def episode_slice(result: RunResult, number: int) -> RunResult:
         episode_report=[r for r in result.episode_report if r.get("episode") == number], run_log=[])
 
 
+def review_only_promo(r: RunResult):
+    """When no cut passes the stranger test, the best cut it found, labelled for review only, so the reviewer can
+    still see where it sits and why the stranger got lost."""
+    from hookcut.rank import beat_text
+    from hookcut.schema import Promo
+    from hookcut.textfmt import ep_tc
+    if not r.candidates:
+        return None
+    verdicts = {v.candidate_id: v for v in r.verdicts}
+    c = max(r.candidates, key=lambda c: (c.id in verdicts, c.prelim_score))
+    beats = {b.id: b for e in r.episodes for b in e.beats}
+    hook, cliff = beats.get(c.hook_beat_id), beats.get(c.cliff_beat_id)
+    if hook is None or cliff is None:
+        return None
+    v = verdicts.get(c.id)
+    return Promo(rank=1, candidate_id=c.id, kind=c.kind, segments=c.segments, duration=c.duration,
+                 hook_beat_id=c.hook_beat_id, cliff_beat_id=c.cliff_beat_id,
+                 hook_time=ep_tc(hook.episode, hook.start), hook_text=beat_text(hook),
+                 cliffhanger_time=ep_tc(cliff.episode, cliff.start), cliffhanger_text=beat_text(cliff),
+                 open_question=(v.open_question if v else c.open_question) or "",
+                 why_it_works="Shown for review only: no cut passed the stranger test.", post_wave=2,
+                 flags=["review only"], cold_viewer=v)
+
+
 def step_summaries(r: RunResult) -> list[str]:
     """One plain sentence per stage, from a finished (or replayed) one-episode run."""
     from hookcut.textfmt import tc

@@ -88,7 +88,11 @@ if r is not None and r.episodes:
     st.markdown(C.steps_html(steps), unsafe_allow_html=True)
     if r.promos:
         views.show_promo(r, r.promos[0], key="try")
+    elif (fallback := D.review_only_promo(r)) is not None:
+        st.info("No cut passed the stranger test this time (live judging varies from run to run). Here is the best "
+                "cut it found, so you can see where it sits and what confused the stranger.")
+        views.show_promo(r, fallback, key="try")
     else:
-        st.info("No cut passed the rules and the stranger test for this episode. The full list is below.")
+        st.info("No cut passed the rules for this episode. The full list is below.")
     with st.expander("Every cut it considered, and what the stranger said"):
         views.show_candidates(r)
