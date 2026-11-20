@@ -8,7 +8,7 @@ episode. The same engine writes a per-episode report for script editors (opening
 cliffhanger strength, whether the next episode picks the cliffhanger up). Built for Kuku's AI Generalist
 assignment (Problem 1, "Find the Promos"). HookCut only picks moments and cut points; it does no editing.
 
-**Live demo:** <link>
+**Live demo:** [https://hookcut-5xnxxizkewdukazjds7appy.streamlit.app/](https://hookcut-5xnxxizkewdukazjds7appy.streamlit.app/)
 
 ## How it works
 
