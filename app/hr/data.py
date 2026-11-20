@@ -130,7 +130,12 @@ def run_one_episode(filename: str, text: str, on_step: Callable[[int, str, str],
     on_step(1, "working", "")
     analyses = analyze.analyze_show([ep], build_client(cfg, "analyze", secrets), log=log, concurrency=1)
     if analyses[0].summary.startswith("analysis failed"):
-        raise RuntimeError("The scoring model did not answer (" + analyses[0].summary[17:160] + ")")
+        detail = analyses[0].summary
+        if any(code in detail for code in ("Error code: 400", "Error code: 401", "Error code: 403", "Invalid API Key")):
+            raise RuntimeError("The AI models rejected the request, which on this deployment usually means an API key "
+                               "in the app's Secrets is wrong (a placeholder or a partial key). The saved sample runs "
+                               "still work.")
+        raise RuntimeError("The scoring model did not answer (" + detail[17:160] + ")")
     partial.analyses = analyses
     on_step(1, "done", step_summaries(partial)[1])
 
